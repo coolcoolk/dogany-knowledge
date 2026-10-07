@@ -892,3 +892,41 @@ Added 2026-10-07. Two items.
 - NOT SEARCHED: creatine and other additives in protein products; collagen
   as a protein source (low amino acid score) beyond the KCA note; casein
   vs whey for satiety on a cut; children and pregnancy use.
+
+## nutrition -- volume eating on a cut (energy density, konjac), v85 addendum
+
+Appended at end-of-file (concurrent appends). Dispatch a research sprint,
+2026-10-07. Lanes @obs-inferential; the rule set lives in cooking 662.
+
+WHAT LANDED. nutrition/energy-density-satiety-660 (B direction / C weight
+size: lower energy density of served food lowers intake; water in the food,
+not beside it; low-density first course; one year-long RCT; small pooled
+weight effect; Hall 2019 as the limit) and nutrition/kr-konjac-glucomannan-661
+(C, contested: konjac as a filler, glucomannan supplement evidence split,
+KR konjac mini-cup jelly ban).
+
+RERUN-NEEDED -- SOURCE ACCESS. The egress proxy refused PubMed, PMC, Europe
+PMC, Crossref, publisher hosts, EFSA, foodsafetykorea and the Internet
+Archive this pass. Every figure in 660 and 661 was read from web-search
+index renderings of abstracts and articles. Re-read at source: Robinson 2022
+(PMC9026919), Ello-Martin 2007 (6-month figures and intention-to-treat
+numbers were not seen), Rolls 1999, Flood 2007, Rolls 2004, Stelmach-Mardas
+2016 (PMC4848697; which studies were experimental), Hall 2019, Dhillon 2016,
+Holt 1995, Onakpoya 2014, EFSA 2010 (10.2903/j.efsa.2010.1798). Three DOIs
+(Rolls 2004, Dhillon 2016, and the EFSA journal number) were not resolved.
+
+OPEN -- searched and not shipped:
+- KOREAN TRIALS. No Korean trial of energy-density or volume-based meal
+  advice was found by search; every trial is US/UK/Australian.
+- KOREAN COMPOSITION TABLE. The 농촌진흥청 국가표준식품성분표 rows for 곤약,
+  콩나물, 양배추, 버섯, 두부 were not read; 661's konjac figures come from a
+  news report of a 국립농업과학원 analysis. What would close it: the table
+  rows read at source (the same gap the v49 addendum records for pork cuts).
+- HOME-COOKED KOREAN DISH ENERGY. Still none (022 is restaurant only), so
+  cooking 662 ships structure, not per-dish kcal.
+- CURRENT 식품공전 TEXT on konjac/glucomannan mini-cup jelly: the 2004-2005
+  measures were read through a news report; the standing rule text was not.
+- NOT SEARCHED: glucomannan and glucose/cholesterol, konjac bowel effects,
+  eating rate and texture as satiety levers, the 2022+ ultra-processed
+  replication trials, Korean 감자/고구마 satiety (the satiety index is 1995
+  Australian foods).

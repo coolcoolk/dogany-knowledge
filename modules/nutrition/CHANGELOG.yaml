@@ -9,6 +9,20 @@
 
 module: nutrition
 releases:
+  - version: 1.4.0
+    date: 2026-10-07
+    warehouse: v87
+    note: high-volume Korean meals on a cut
+    added:
+      - nutrition/energy-density-satiety-660
+      - nutrition/kr-konjac-glucomannan-661
+  - version: 1.4.0
+    date: 2026-10-07
+    warehouse: v85
+    note: energy density and konjac (volume eating on a cut)
+    added:
+      - nutrition/energy-density-satiety-660
+      - nutrition/kr-konjac-glucomannan-661
   - version: 1.3.0
     date: 2026-10-07
     warehouse: v63
