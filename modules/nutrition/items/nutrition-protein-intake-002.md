@@ -14,6 +14,12 @@
 # merge): the same FFM unit confirmed at the Helms 2014 abstract; the
 # trained-lifter reading of Morton's 2.2 and the per-meal figures lives in
 # nutrition/protein-deficit-trained-lifter-023.
+# Source re-audit 2026-10-07 (protein distribution re-audit): the per-meal
+# clause (~0.25 g/kg or 20-40 g "maximized at") is separated from the daily
+# range in the claim and handed to nutrition/protein-per-meal-ceiling-008,
+# where a 2023 tracer trial and its printed dispute hold it as contested. The
+# daily range, its sources and the letter are unchanged; 063 still sizes a
+# one-meal add-on with the figure, as a planning dose and never as a cap.
 id: nutrition/protein-intake-002
 domain: nutrition
 grade: A
@@ -27,6 +33,7 @@ sources:
   - "IOM Acceptable Macronutrient Distribution Range (protein)"       # independent corroboration
   - "MacNaughton 2016 -- per-meal MPS refinement inside the range"
   - "source:nutrition/protein-deficit-lean-mass-target-062 -- owns the deficit target; corrects the FFM unit"
+  - "source:nutrition/protein-per-meal-ceiling-008 -- the per-meal figure is contested there; this claim no longer rests on it"
   - "framework:GRADE spine -- converged multi-body corroboration, no credible dispute"
 applicability:
   axes:
@@ -52,23 +59,30 @@ refraction_notes:
     grade: A
 claim: >
   Total daily protein intake of ~1.4-2.0 g/kg/day is sufficient for most
-  exercising adults; the per-meal muscle-protein-synthesis response is maximized
-  at ~0.25 g/kg body weight, or an absolute 20-40 g, per meal.
+  exercising adults. A per-meal figure of ~0.25 g/kg body weight, or an
+  absolute 20-40 g, is the long-used planning dose for one meal; that it is
+  the most a meal can use for muscle-building is contested and is not part of
+  this claim (nutrition/protein-per-meal-ceiling-008).
 reasoning: >
   The ISSN 2017 protein stand aligns with the joint ACSM/AND/DC position
   (~1.2-2.0 g/kg/day) and the IOM Acceptable Macronutrient Distribution Range;
   no credible body disputes the intake range, and MacNaughton 2016 refines the
-  per-meal figure inside it. Convergence across independent institutional bodies
-  with no dispute reaches the top confidence band on the GRADE spine. This is the
+  per-meal figure inside it. That per-meal figure is a planning dose, not a
+  ceiling: a 2023 tracer trial and the dispute it started are carried in
+  nutrition/protein-per-meal-ceiling-008, so the top band applies to the daily
+  range only. Convergence across independent institutional bodies with no
+  dispute on the range reaches the top confidence band on the GRADE spine. This is the
   dose/absorption claim (nutrition-owned); the timing/anabolic-window claim is a
   separate exercise-owned item.
 ---
 
 # nutrition/protein-intake-002
 
-The daily-intake range and the per-meal dose are the two load-bearing numbers.
-Both are corroborated across independent institutional bodies with no credible
-dispute, so the claim sits at the top of the confidence ladder.
+The daily-intake range is the load-bearing number. It is corroborated across
+independent institutional bodies with no credible dispute, so the claim sits at
+the top of the confidence ladder. The per-meal dose (about 0.25 g/kg, 20-40 g)
+is kept as a planning figure only; whether a meal can use more is under live
+dispute in nutrition/protein-per-meal-ceiling-008.
 
 The daily figure scales with the user's body weight; the answer path RESCALES
 from a measured weight rather than reciting the fixed grams. Lean-mass retention

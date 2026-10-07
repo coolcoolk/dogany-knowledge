@@ -10,6 +10,11 @@
 # g protein per kg body weight per day, copied from the graded items, for
 # RESCALE against measured body weight -- never computed by the model. The
 # YAML-subset reader returns scalars as strings; cast with float()/int().
+# Source re-audit 2026-10-07 (protein distribution re-audit): no rule, constant
+# or letter changed. The bases of two rules now cite the newer trials: the
+# pre-sleep option (four small matched-total nulls in
+# nutrition/pre-sleep-protein-matched-trials-091) and the skewed day (three
+# dieting RCTs in nutrition/protein-distribution-while-dieting-090).
 id: nutrition/meal-protein-nudge-rules-063
 domain: nutrition
 lane: "@meal-craft"
@@ -25,13 +30,15 @@ sources:
   - "nutrition/self-report-underreporting-007"  # logged intake is a floor
   - "nutrition/unlogged-day-not-zero-019"  # missing days are missing, not zero
   - "nutrition/kr-protein-exchange-counting-021"  # 8 g per meat-and-fish exchange; split justified by loggability, not physiology
+  - "nutrition/protein-distribution-while-dieting-090"  # even vs dinner-heavy split while dieting: no lean-mass or fat-loss difference in three RCTs
+  - "nutrition/pre-sleep-protein-matched-trials-091"  # pre-sleep protein: matched-total trials, hunger and metabolic-rate questions in a cut
   - "exercise/protein-anabolic-window-002"  # wide post-exercise window
   - "https://doi.org/10.1186/1550-2783-10-53"  # Schoenfeld BJ, Aragon AA, Krieger JW. J Int Soc Sports Nutr 2013;10:53. PMID 24299050 -- timing meta-regression: no timing effect once covariates are controlled; total protein the strongest predictor of hypertrophy effect size
   - "https://doi.org/10.1093/gerona/glu103"  # Moore DR, Churchward-Venne TA, Witard O, et al. J Gerontol A Biol Sci Med Sci 2015;70(1):57-62. PMID 25056502 -- retrospective pooled tracer data: per-meal MPS plateau at 0.40 vs 0.24 g/kg body mass in older vs younger men (p=.055), 0.60 vs 0.25 g/kg LBM (p<.01)
   - "https://doi.org/10.3945/jn.114.208371"  # Snijders T, Res PT, Smeets JS, et al. J Nutr 2015;145(6):1178-1184. PMID 25926415 -- RCT, n=44 young men, 12 wk RT: 27.5 g protein pre-sleep vs non-caloric placebo increased strength and quadriceps CSA (total daily protein not matched)
   - "https://doi.org/10.1016/j.jamda.2013.05.021"  # PROT-AGE 2013, PMID 23867520 -- timing and quality evidence "not yet sufficient to support specific recommendations" in older people
   - "product request 2026-10-06: rules a meal module can use to nudge"
-  - "framework:GRADE -- the daily bands inherit their item grades (002 A, 062 B); the per-meal older-adult dose is a pooled retrospective tracer analysis (C); the pre-sleep option is one RCT without matched daily protein (C); the windows, margins and logged-day minimums are product constants with no direct evidence."
+  - "framework:GRADE -- the daily bands inherit their item grades (002 A, 062 B); the per-meal older-adult dose is a pooled retrospective tracer analysis (C); the pre-sleep option is one RCT without matched daily protein plus four small matched-total nulls (C); the windows, margins and logged-day minimums are product constants with no direct evidence."
 applicability:
   axes:
     - key: body_weight_kg
@@ -150,7 +157,7 @@ nudge_rules:
     action: none when the daily mean is in band; when below floor, the add-on goes to the lowest meal because a per-meal count is easier to hit and to log
     never: present an even split as physiologically required; trade the daily total for evenness
     constants: []
-    basis: nutrition/protein-distribution-thin-009
+    basis: nutrition/protein-distribution-thin-009; for a cut also nutrition/protein-distribution-while-dieting-090
     basis_grade: C
   - rule: training-timing
     trigger: protein not eaten near a workout
@@ -164,7 +171,7 @@ nudge_rules:
     action: may offer a pre-sleep protein snack (about 30-40 g) as ONE way to close the gap
     never: present pre-sleep protein as better than the same protein earlier in the day
     constants: []
-    basis: Snijders 2015 (PMID 25926415)
+    basis: Snijders 2015 (PMID 25926415); the never-clause rests on the matched-total trials in nutrition/pre-sleep-protein-matched-trials-091
     basis_grade: C
   - rule: renal-gate
     trigger: renal_condition stated and not none or healthy

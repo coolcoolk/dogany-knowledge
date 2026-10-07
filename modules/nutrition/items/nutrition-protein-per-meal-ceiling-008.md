@@ -5,17 +5,28 @@
 # and the challenge is itself disputed in print. Neither side is laundered.
 # Item 002 keeps ownership of the daily-intake range; this item owns the ceiling
 # dispute only.
+# Source re-audit 2026-10-07: Trommelen 2023 re-read at the Europe PMC full text
+# (36 men, 12 per arm of placebo, 25 g or 100 g, so the body's "either 25 or 100
+# g" omitted the placebo arm; fixed). The Witard and Mettler comment and the
+# Trommelen reply were NOT re-read (publisher pages return 403); only the reply's
+# title ("Protein Intake Distribution: Beneficial, Detrimental, or Inconsequential
+# for Muscle Anabolism?") was checked at PubMed, so the dispute is carried as
+# summarised at authoring. Apicella 2025 (young females, 15 vs 20 g whey) and
+# MacNaughton 2016 (trained men, 40 g beat 20 g) added to the population note.
+# Letter and contested flag unchanged.
 id: nutrition/protein-per-meal-ceiling-008
 domain: nutrition
 lane: "@obs-inferential"
 grade: B
 locale: universal
-as_of: 2023-2024
+as_of: 2023-2025
 contested: yes
 sources:
   - "https://doi.org/10.1016/j.xcrm.2023.101324"  # Trommelen J, van Lieshout GAA, Nyakayiru J, Holwerda AM, Smeets JSJ, Hendriks FK, van Kranenburg JMX, Zorenc AH, Senden JM, Goessens JPB, Gijsen AP, van Loon LJC. Cell Rep Med 2023;4(12):101324. PMID 38118410, PMC10772463
   - "https://doi.org/10.1123/ijsnem.2024-0041"  # Witard OC, Mettler S. Int J Sport Nutr Exerc Metab 2024;34(5):322-324. PMID 38991545 -- the published caution against the practical reading
   - "https://doi.org/10.1123/ijsnem.2024-0107"  # Trommelen J, Holwerda AM, van Loon LJC. Response to Witard and Mettler. Int J Sport Nutr Exerc Metab 2024. PMID 38986499
+  - "https://doi.org/10.14814/phy2.12893"  # Macnaughton LS, Wardle SL, Witard OC, et al. Physiol Rep 2016;4(15):e12893. PMID 27511985 -- 30 resistance-trained men (15 lighter, 15 heavier), whole-body lifting then 20 g or 40 g whey: myofibrillar synthesis 0.059 vs 0.049 %/h, 40 g greater (P=0.005), lean mass did not change the response. Trained men were already past a 20 g maximum, up to 40 g; nothing in trained people was tested near 100 g
+  - "https://doi.org/10.1152/ajpendo.00365.2024"  # Apicella MCA, Jameson TSO, Monteyne AJ, et al. Am J Physiol Endocrinol Metab 2025;328(3):E420-E434. PMID 39880386 -- 28 young females, one-leg lifting then 1.5 g essential amino acids (n=10) vs 15 g (n=10) vs 20 g (n=8) whey: post-exercise myofibrillar synthesis did not differ between drinks; no dose above 20 g was tested, so it does not bear on the ceiling itself
   - "source:nutrition/protein-intake-002 -- the shipped item carrying the 0.25 g/kg or 20-40 g per-meal figure this dispute is about"
   - "source:nutrition/observational-dominance-003 -- lane rule: a single trial does not close a question"
 applicability:
@@ -31,11 +42,18 @@ applicability:
 refraction_notes:
   - note: >
       POPULATION BOUND, and it is narrow. The trial enrolled 36 healthy,
-      recreationally active young men aged 18-40. The published counter-comment
-      states explicitly that these participants were recreationally active but
-      NOT resistance-trained, and that the no-upper-limit reading does not appear
-      to translate to resistance-trained young women. Do not speak this finding
-      to a trained user, or to a woman, as if it were established for them.
+      recreationally active young men aged 18-40, 12 per arm (placebo, 25 g,
+      100 g). The published counter-comment states explicitly that these
+      participants were recreationally active but NOT resistance-trained, and
+      that the no-upper-limit reading does not appear to translate to
+      resistance-trained young women. In trained men a 20 g maximum was already
+      exceeded at 40 g after whole-body lifting (MacNaughton 2016, n=30), which
+      is why the planning figure is stated as 20-40 g; no trial in trained
+      people tested a dose near 100 g. The one later trial in young women
+      (Apicella 2025, 28 women) found 15 g and 20 g of whey gave the same
+      post-exercise synthesis, which says nothing about doses above 20 g. Do not
+      speak this finding to a trained user, or to a woman, as if it were
+      established for them.
     grade: C
   - note: >
       DO NOT INVERT THIS INTO ADVICE. That a 100 g bolus produces a larger and
@@ -47,12 +65,13 @@ refraction_notes:
 claim: >
   The long-standing per-meal anabolic ceiling (about 0.25 g/kg body weight, or
   20-40 g absolute) is contested rather than settled. A quadruple-tracer
-  feeding-infusion trial in 36 healthy recreationally active young men found that
-  100 g of protein after resistance exercise produced a greater and longer
-  (beyond 12 hours) anabolic response than 25 g, with a dose-response rise in
-  amino acid availability and incorporation into muscle protein and negligible
-  change in breakdown or oxidation rates. The authors conclude the response has
-  no upper limit in magnitude or duration. A published counter-comment accepts
+  feeding-infusion trial in 36 healthy recreationally active young men (12 per
+  arm, including a placebo arm) found that 100 g of protein after resistance
+  exercise produced a greater and longer (beyond 12 hours) anabolic response
+  than 25 g, with a dose-response rise in amino acid availability and
+  incorporation into muscle protein and negligible change in breakdown or
+  oxidation rates. The authors conclude the response has no upper limit in
+  magnitude or duration. A published counter-comment accepts
   the measurement but disputes the practical reading and states the result does
   not appear to extend to resistance-trained young women.
 reasoning: >
@@ -76,10 +95,11 @@ reasoning: >
 The familiar rule that a single meal can only use twenty to forty grams of
 protein for muscle-building is under real challenge. A tracer study using four
 simultaneous isotope labels followed thirty-six young men for over twelve hours
-after they ate either twenty-five or one hundred grams of protein following
-resistance exercise, and found the larger dose produced a bigger and much longer
-anabolic response with essentially no increase in oxidation or breakdown. The
-authors state flatly that the response has no upper limit.
+after they drank a placebo, twenty-five grams or one hundred grams of protein
+following resistance exercise (twelve men per drink), and found the larger dose
+produced a bigger and much longer anabolic response with essentially no increase
+in oxidation or breakdown. The authors state flatly that the response has no
+upper limit.
 
 That is not the end of the argument, and this item deliberately does not end it.
 An independent published comment accepts the measurement while objecting to how

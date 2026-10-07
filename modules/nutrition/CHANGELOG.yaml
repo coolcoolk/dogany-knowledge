@@ -9,6 +9,19 @@
 
 module: nutrition
 releases:
+  - version: 1.1.0
+    date: 2026-10-07
+    warehouse: v46
+    note: protein distribution re-audit
+    added:
+      - nutrition/protein-distribution-while-dieting-090
+      - nutrition/pre-sleep-protein-matched-trials-091
+    changed:
+      - nutrition/protein-distribution-thin-009
+      - nutrition/protein-per-meal-ceiling-008
+      - nutrition/protein-timing-total-matched-024
+      - nutrition/protein-intake-002
+      - nutrition/meal-protein-nudge-rules-063
   - version: 1.0.1
     date: 2026-10-07
     warehouse: v45

@@ -374,6 +374,97 @@ the alcohol-rules field guide (not public)). These partly close leisure OPEN WAN
    its bands for flushers. The Korean guideline's halving is a health-risk
    rule and is carried only in 032.
 
+Protein distribution re-audit (v44, 2026-10-07) -- filled and open:
+- NEW: nutrition/protein-distribution-while-dieting-090 (B) holds the trials
+  that varied the split of protein across meals during energy restriction
+  (distribution_rules: split-not-a-lever-in-a-cut, even-split-hunger-option,
+  meal-count-is-free, say-what-was-tested). nutrition/pre-sleep-protein-
+  matched-trials-091 (C, contested) takes the pre-sleep detail out of 024
+  (pre_sleep_rules: fill-slot-only, no-bonus-on-a-met-day, not-an-appetite-
+  tool, not-a-metabolism-tool, log-its-energy, sleep-claim-withheld,
+  population-guard). Both rule blocks use the same fields as 024's
+  timing_rules: rule, when, effect, basis, basis_grade. No program code or
+  field guide was written; a diet module that reads timing_rules can read these.
+- RE-AUDITED IN PLACE: 009 (its "wrong population" limit and "nobody has
+  tested" sentence were out of date; letter and contested flag unchanged),
+  008 (the placebo arm and 12 per arm were missing from the body; trained-men
+  and young-female dose data added), 024 (Casuso 2025, Lak 2024, Wycherley
+  2010; the no-timing-trial-in-a-deficit note narrowed to trained lifters), 002
+  (the per-meal clause is separated from the daily range that carries the top
+  band and pointed to 008), 063 (two rule bases cite 090 / 091; no rule,
+  constant or letter changed).
+- SUPERSEDES, in part: residual sub-gap 2 above ("both controlled trials are in
+  older adults") and items 4 and 5 under the v37 cut-protein block ("no timing
+  trial ... in a deficit", "bedtime protein with totals matched: one trial").
+  Dieting adults, young men new to lifting and resistance-trained men have now
+  been tested, each in small trials, and four matched bedtime comparisons
+  exist; the lifter-on-a-cut cell is still empty (open 1).
+Searched and not closed:
+1. LIFTER ON A CUT. No RCT varies the protein split, the timing around a
+   session or protein before sleep in resistance-trained people in a calorie
+   deficit at 1.6-2.4 g/kg. Every dieting trial located (Hudson 2017, De Leon
+   2024, Lombardo 2021 for the split; Wycherley 2010 for before-vs-after
+   training, in type 2 diabetes) is in overweight adults at about 1 g/kg. What
+   would close it: an 8-12 week cut in trained lifters, protein fixed at
+   1.6-2.4 g/kg, three even meals vs a dinner-heavy split (and a no-breakfast
+   arm), lean mass by four-compartment model or DXA, with a stated minimum
+   detectable difference.
+2. NO BREAKFAST. No trial removed breakfast protein entirely; the skewed arms
+   still ate 10-15 g. The usual young Korean day (62.1 percent of 19-29-year-
+   olds skip breakfast, press-reported) is untested for lean mass in a
+   deficit. A time-restricted-eating trial in resistance-trained people exists
+   (Gavanda 2026, n=23, 16:8, a bulk not a cut, lean-mass gain kept at 1.44
+   g/kg protein) but it is not a split comparison and was read at abstract
+   level only.
+3. POWER. The three dieting trials have 41-47 completers and Hudson's authors
+   flag power. Yasuda 2020 powered itself for d=1.5 and analysed 26 of 33;
+   Tavares 2025 randomised 32 and analysed 18. A pooled analysis of the
+   even-vs-skewed trials with body-composition outcomes (none located) is the
+   cheap next step.
+4. APPETITE SIGNAL. De Leon 2026 (44 women, lab snack task) was read at
+   abstract level and is the only trial of the split on appetite or adherence
+   outcomes. No trial in men or lifters, no free-living snack intake. 090's
+   hunger-tactic rule is the weakest rule in that item.
+5. PRE-SLEEP. The matched comparisons are small (13, 26, 24, 42) and Antonio 2017
+   has no unsupplemented arm. The Zhou 2024 network meta-analysis (116
+   trials; night protein best for strength) was read at abstract level only
+   (the publisher page returned 403), so how many trials sit in its night
+   node, and whether any matched protein, is unknown here. No pre-sleep trial
+   on lean mass during a cut. Next-morning appetite and metabolic rate rest on
+   Kinsey 2014 (44 women, one night) and Madzima 2018 (9 women, magnitude-
+   based inference); the Snijders 2019 review says no change in either.
+6. SLEEP SIDE OF BEDTIME PROTEIN. Aussieker 2026 (9 resistance-trained
+   adults, crossover) found whey, but not casein, separated from an isocaloric
+   control on sleep latency and efficiency; the abstract reports no
+   significant whey-casein difference; not replicated. For the sleep-recovery
+   module: its late-evening row (sleep-recovery/late-night-next-morning-
+   training-080) does not cover protein drinks.
+7. PER-MEAL CEILING IN TRAINED PEOPLE AT HIGH DOSE. Trommelen 2023 is 12 men
+   per arm and not resistance-trained; MacNaughton 2016 (trained men) went to
+   40 g; Apicella 2025 (young females) to 20 g. The Witard and Mettler comment
+   and the Trommelen reply were not re-read (publisher pages returned 403), so
+   008's account of the printed dispute is as summarised when it was authored.
+8. KOREAN PER-MEAL PROFILE AND BREAKFAST SKIPPING. Still no per-meal protein
+   profile for Koreans aged 19-39 (searched again 2026-10-07, nothing found).
+   The breakfast-skip rates (35.3 percent overall, 62.1 percent at 19-29,
+   46.8 percent in the 30s) are press-reported from the 2024 KNHANES. The
+   KDCA release of the 2025 survey (2026-09-30, kdca.go.kr/bbs/kdca/42/
+   312791/artclView.do with its two PDFs) carries no breakfast table, and the
+   2024 statistics compilation (announced in the KDCA press note of
+   2025-12-31) was not retrieved. Replace the press source with that table.
+9. LAK 2024. The 2025 correction replaced the ethics-approval body and number
+   in the Methods and the Ethics Statement and states no reason; results were
+   not changed. The trial was used only as a low-weight supporting comparison
+   in 024.
+10. READ AT ABSTRACT LEVEL ONLY (numbers outside an abstract were not checked):
+   De Leon 2024 and 2026 (protocol from the NCT03202069 registry record),
+   Lombardo 2021, Murphy 2018, Tavares 2025, Casuso 2025, Antonio 2017,
+   Valenzuela 2023, Chen 2022, Pourabbas 2021, Chapman 2023, Klemp 2025,
+   Ormsbee 2022, Kinsey 2014, Madzima 2018, Dela Cruz 2021, Reis 2021, Zhou
+   2024, Aussieker 2026, Apicella 2025, MacNaughton 2016. Read at full text:
+   Yasuda 2020, Lak 2024, and the Trommelen 2023 methods; Hudson 2017 only
+   through a summarising fetch of its PMC page.
+
 ## nutrition -- craft lane (@meal-craft)
 
 Added v21 (2026-09-02, nutrition craft-lane opening). This is a SECOND
