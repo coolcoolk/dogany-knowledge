@@ -1438,3 +1438,42 @@ Drill cues and rep units (v101, 2026-10-07) -- filled and open:
 - PRODUCT NOTE (not applied, no program code): 741 drill_id keys are
   proposed snake_case; the product drill catalog's own keys were not read and
   must be mapped by the composer.
+
+Main-lift cues (v101, 2026-10-08) -- filled and open:
+- FILLED: 745 attentional focus cue evidence (C/B, contested; external
+  slightly better for acute strength, internal allowed for single-joint
+  growth, the external-superiority consensus not robust to a publication-bias
+  correction) and 746 lift_cues (D synthesis: 11 lifts x setup, 3 cues EN/KO
+  tagged external / internal, heavy_cue, one fault + fix; 12 cue_rules).
+  Links 711, 710, 058, 059, 064, 092, 093, 076, 056, 031; no existing item
+  changed.
+- RERUN-NEEDED: read only as search-index renderings of the abstract or
+  record (pubmed refused a cookie-less fetch on 2026-10-08): Schoenfeld 2018
+  (EJSS 18(5):705-712; exercises, group n after dropout, effect sizes),
+  Calatayud 2016 (EJAP 116(3):527-533; EMG magnitudes by load), Kristiansen
+  2018 (JSCR 32(9):2442-2451), Snyder & Leech 2009, Fenwick 2009 (spine
+  load values per row), Sperandei 2009, Andersen 2014 (read via a secondary
+  summary only -- citation details unverified at primary), Saeterbakken &
+  Fimland 2013, Saeterbakken 2011, Blazek 2019, Green & Comfort 2007. Full
+  texts read: Chua 2021, McKay 2024, Grgic 2021, Myer 2014, Noteboom 2024.
+- OPEN: NO TRIAL OF CUE SETS. No study compares one set of bench, squat,
+  RDL, press, row, pulldown or leg-press cues against another (or against no
+  cue) for strength, growth, technique retention or injury. Every 746 cue and
+  fault is practitioner consensus (D).
+- OPEN: FOCUS AND STRENGTH IS SMALL-STUDY. Grgic 2021's acute pool is 7
+  small within-subject studies, no bias correction; long-term is 3 trials
+  (lower body only, one upper-body test). McKay 2024 corrected the motor-
+  learning data, not the strength set; a bias-corrected strength analysis
+  is wanted.
+- OPEN: INTERNAL FOCUS AND HYPERTROPHY ON COMPOUND LIFTS. One RCT (Schoenfeld
+  2018, untrained men, curl and leg extension). No trial on trained lifters
+  or on presses, rows, pulldowns or squats; 746 allows internal cues only on
+  accessory / light sets for that reason.
+- OPEN: 746 constants -- one cue per set, two new cues per session, a 2-session
+  switch window, the 45-75 deg bench elbow band (a product range inside
+  Noteboom's 45-90 deg model at a 16 kg bar), 15-25 deg RDL knee bend -- have
+  no direct evidence. The 80% / 60% 1RM focus bands come from one EMG study.
+- OPEN: NOT COVERED: conventional / sumo deadlift, front squat, hip thrust,
+  pull-up, dips, split squat cue rows; cue delivery (verbal vs video vs
+  analogy) and feedback frequency; women and older-adult samples (every
+  focus and cue study here is mostly young men).

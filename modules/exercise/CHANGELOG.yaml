@@ -9,6 +9,13 @@
 
 module: exercise
 releases:
+  - version: 1.9.0
+    date: 2026-10-07
+    warehouse: v103
+    note: main lift setup and execution cues
+    added:
+      - exercise/attentional-focus-cue-evidence-745
+      - exercise/main-lift-cues-746
   - version: 1.8.0
     date: 2026-10-07
     warehouse: v102
