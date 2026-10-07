@@ -1477,3 +1477,35 @@ Main-lift cues (v101, 2026-10-08) -- filled and open:
   pull-up, dips, split squat cue rows; cue delivery (verbal vs video vs
   analogy) and feedback frequency; women and older-adult samples (every
   focus and cue study here is mostly young men).
+
+Warm-up ladder to a working load (v101, 2026-10-08) -- filled and open:
+- FILLED: exercise/working-load-calibration-evidence-748 (reps ~ %1RM spread
+  and leg press vs bench gap, Nuzzo 2024; RM-to-1RM fractions and the 10-rep
+  estimate cap, Reynolds 2006; dumbbell vs barbell press 1RM, Saeterbakken
+  2011 / 2013; novice self-selected load, Glass & Stanton 2004; NSCA
+  calibration steps) and exercise/warmup-ladder-builder-rules-747 (D, 20
+  ramp_rules: percent templates by working reps and body region, bar /
+  floor-deadlift / dumbbell / machine handling, rounding, cap-fill,
+  last-rung floor, tiny-load fallback, first-session calibration,
+  stated-weight check, barbell-to-dumbbell conversion). Builds on 080 and
+  018; neither changed.
+- OPEN: NO trial compares methods of finding a first working weight (RIR-
+  stepped calibration vs a rep-max test vs a percentage of a predicted 1RM).
+  741's calibration is the NSCA test protocol re-used; its RIR thresholds
+  and the 4-set cap are product constants.
+- OPEN: DUMBBELL / BARBELL RATIOS exist for two pressing lifts only, in 12
+  and 15 trained men (Saeterbakken 2011, 2013). Nothing for rows, lunges /
+  split squats, RDLs, curls, women or novices; incline pressing borrows the
+  flat ratio. 741's 0.80 default is a product guess.
+- OPEN: NO machine <-> free-weight load conversion exists (stacks differ by
+  make and cam); 741 forbids conversion and calibrates instead.
+- OPEN: the upper / lower split in the top rung (90 vs 85%) is inferred from
+  the NSCA near-max step sizes, not tested. No study varies the ramp by body
+  region.
+- OPEN: dumbbell and machine rung caps (3 / 4), the 60 kg floor-deadlift
+  first rung and the 25% light-half jump cap are product judgement on
+  handling, not evidence.
+- OPEN: Nuzzo 2024 reports figure-read table values (approximate means); the
+  exact table and its SDs at each %1RM were read only as quoted in the text
+  (80% SD 2.51, 60% SD 4.36). Saeterbakken 2011 / 2013 and Glass & Stanton
+  2004 were read at abstract depth (Europe PMC); full texts not read.

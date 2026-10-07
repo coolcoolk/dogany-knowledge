@@ -9,6 +9,13 @@
 
 module: exercise
 releases:
+  - version: 1.10.0
+    date: 2026-10-07
+    warehouse: v104
+    note: warm-up ladders to a stated working load
+    added:
+      - exercise/warmup-ladder-builder-rules-747
+      - exercise/working-load-calibration-evidence-748
   - version: 1.9.0
     date: 2026-10-07
     warehouse: v103

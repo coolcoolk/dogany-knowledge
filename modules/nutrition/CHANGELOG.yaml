@@ -9,6 +9,36 @@
 
 module: nutrition
 releases:
+  - version: 1.7.0
+    date: 2026-10-07
+    warehouse: v106
+    note: calorie target set inside the goal consult
+    added:
+      - nutrition/deficit-weight-dynamics-756
+      - nutrition/goal-calorie-rules-757
+      - nutrition/maintenance-estimate-calibration-755
+  - version: 1.6.0
+    date: 2026-10-07
+    warehouse: v105
+    note: NEAT estimation, watch vs steps
+    added:
+      - nutrition/neat-estimation-watch-steps-evidence-750
+      - nutrition/neat-rules-751
+  - version: 1.5.0
+    date: 2026-10-08
+    warehouse: v101
+    note: NEAT and daily activity for calorie targets (watch kcal vs steps vs job band) (module version not bumped by this branch; set at merge)
+    added:
+      - nutrition/neat-estimation-watch-steps-evidence-750
+      - nutrition/neat-rules-751
+  - version: 1.5.0
+    date: 2026-10-08
+    warehouse: v101
+    note: calorie and protein targets at goal-setting time (module version not bumped by this branch; set at merge)
+    added:
+      - nutrition/deficit-weight-dynamics-756
+      - nutrition/goal-calorie-rules-757
+      - nutrition/maintenance-estimate-calibration-755
   - version: 1.5.0
     date: 2026-10-07
     warehouse: v97

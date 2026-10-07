@@ -976,3 +976,117 @@ OPEN -- searched and not shipped:
   give a number) and 716 adds the hedge.
 - NOT SEARCHED: salt sensitivity, potassium intake targets, sodium in
   lifters' sweat losses, Korean urinary sodium trends (KNHANES).
+
+## nutrition -- NEAT and daily activity for calorie targets (watch vs steps vs job), v101 addendum
+
+Appended at end-of-file (concurrent appends). Dispatch
+a research sprint, 2026-10-08. Lanes @obs-inferential
+(750) and @meal-craft (751).
+
+WHAT LANDED. nutrition/neat-estimation-watch-steps-evidence-750 (B: wrist
+devices do not measure energy accurately while steps are within about 10
+percent; C: brand / activity sign flips, no correction factor; C: NEAT
+variability and its fall on a diet; B: self-report overstates activity; C:
+Korean PACT vs DLW; D: steps-to-kcal arithmetic 0.3-0.6 kcal/kg per 1000
+steps). nutrition/neat-rules-751 (D): activity_sources priority, pal_bands 6,
+neat_rules 15 for the goal-consult calorie step, diet card and weekly retro.
+
+READ PATH. Europe PMC REST worked this pass (PubMed web pages returned a
+cookie wall). Full text read: Fuller 2020 (PMC7509623), Lee 2026
+(PMC13120158), Kostrna 2026 (PMC13419227); FAO/WHO/UNU 2004 ch. 5 on fao.org.
+Abstract only: Choe & Kang 2025, O'Driscoll 2020, Doherty 2024, Evenson 2020,
+Ferreira 2026, Murakami 2019, Tudor-Locke 2019, Levine 1999 / 2005, Redman
+2009, Lee 2011, Hall 2011. Han 2023 (Korean PACT) seen as the koreascience
+abstract record only. The Apple Watch MAPE figures (27.96 / 8.17 / 4.43
+percent) come from the University of Mississippi release; the paper's
+abstract gives Bland-Altman bias and says every EE subgroup exceeded 10
+percent MAPE -- re-read the paper's tables to confirm. Lee 2026's text calls
+the endurance bias "underestimation" while its tables show device values
+above calorimetry; 750 follows the tables -- worth a check of the sign
+convention in the full figure set.
+
+OPEN -- searched and not shipped:
+- RESTING ENERGY EQUATION. The warehouse has no graded resting metabolic rate
+  equation (Mifflin-St Jeor, Harris-Benedict, the KDRI / IOM EER equations,
+  NASEM 2023 DLW-based equations), so 751's bands multiply an estimate this
+  warehouse has not graded. This is the biggest hole under the calorie step.
+  What would close it: one item grading prediction equations against
+  measured RMR / DLW in Korean adults and in lean resistance-trained users
+  (equations under-predict in muscular people).
+- 2025 KDRI ENERGY CHAPTER. The 2025 EER equations and PA coefficients
+  (비활동적 / 저활동적 / 활동적 / 매우 활동적) were not read; one search
+  record says the 2025 edition adopts the new Korean PACT. 750 uses the FAO
+  bands instead.
+- CURRENT-MODEL FREE-LIVING DLW VALIDATION. No study located that tests a
+  current Apple Watch, Galaxy Watch or Garmin daily active / total kcal
+  against doubly labelled water over free-living days; Murakami 2019 used
+  2014-era devices. Lab tests (cycling, running, lifting) do not answer the
+  whole-day NEAT question.
+- STEP-BASED NEAT IN KOREAN WORKERS. No Korean occupational step or NEAT
+  survey by job type was read; the 751 band cut points (5000 / 10000 steps)
+  are product constants, not sourced.
+- 7700 kcal/kg OVER SHORT WINDOWS. The conversion used by 751's
+  recalibration is a convention; no study was read on its error over 2-4
+  week windows in dieting lifters.
+- PREGNANCY GATE. 751 adds a pregnancy_status hard gate on the calorie-target
+  surface, as a D convention. This is the designed decision the original
+  nutrition sub-gap 7 asked for, taken only for this surface; the general
+  deficit items still carry no gate.
+- NOT SEARCHED: sleep-tracker-derived activity, heart-rate-only (chest strap)
+  EE models, smart-ring (Oura, Galaxy Ring) energy estimates, NEAT in
+  shift workers, adaptive thermogenesis size beyond activity.
+
+## nutrition -- calorie and protein targets at goal-setting time, v101 addendum
+
+Appended at end-of-file (concurrent appends). Dispatch
+a research sprint, 2026-10-08. Lane @obs-inferential.
+
+WHAT LANDED. nutrition/maintenance-estimate-calibration-755 (B): the starting
+maintenance estimate, its individual error and calibration from weigh-ins.
+nutrition/deficit-weight-dynamics-756 (B): deficit-to-weight dynamics (the
+static 7700 kcal/kg rule over-predicts; early glycogen water; 6-month
+plateau) and the AHA/ACC/TOS 2013 and KSSO 2022 deficit sizes.
+nutrition/goal-calorie-rules-757 (D synthesis): ask_first 5 and
+goal_calorie_rules 18 for the goal card and the weekly retro, linked to 012,
+062, 029, 074, 026 and 010. No program code; no field-guide doc was written
+(the docs/the warehouse-*-fields.md guides named by 029 and 074 are not in this repo).
+
+READ / NOT READ. PubMed E-utilities abstracts re-read 2026-10-08: Frankenfield
+2005, Mifflin 1990, Sanghvi 2015, Hall 2008, Hall 2011, Thomas 2013, Kreitzman
+1992, Fothergill 2016, Park 2020, Park 2023, Kim 2015. Guideline text read in
+full: AHA/ACC/TOS 2013 (Circulation PDF) and KSSO 2020 / 2022 (Europe PMC).
+NOT read at source: Hall 2011 body text (PMC captcha) -- the 100 kJ/day per kg,
+half in ~1 year, 95 percent in ~3 years rule of thumb is from a search extract
+of the paper; Frankenfield 2005 full text (per-equation hit rates and error
+ranges not carried).
+
+OPEN -- searched and not shipped:
+- KOREAN RMR EQUATION VALIDATION. No study located tests Mifflin-St Jeor (or
+  the KDRI EER equation) against measured REE in healthy, normal-weight Korean
+  adults. Two small Korean samples (36 with T2DM; 53 healthy, FFM-based) and
+  one farmer study disagree with the Western ranking. 755 keeps Mifflin with a
+  widened hedge. What would close it: a Korean indirect-calorimetry validation
+  of Mifflin, Harris-Benedict and FAO/WHO in healthy adults with Bland-Altman
+  limits.
+- ADJUSTMENT CADENCE. No trial compares rules for adjusting a calorie target
+  from weigh-ins (step size, window, trigger). 757's 14-day no-verdict window,
+  3-week adjustment window, 100-200 kcal step and 5 percent re-estimate
+  trigger are product constants. What would close it: an RCT of adaptive
+  versus fixed targets in a self-monitoring app population.
+- INTAKE FLOOR. The 1200 / 1500 kcal floor is the lower edge of AHA/ACC/TOS
+  prescription bands, not a stated safety minimum; no source located defines a
+  minimum intake for unsupervised dieting. Only the <800 kcal VLCD line is a
+  guideline rule.
+- PREGNANCY, LACTATION, MINORS. No item in this module covers energy needs in
+  pregnancy or lactation or weight goals for adolescents; 757 withdraws the
+  number for these users rather than modifying it.
+- EATING-DISORDER AXIS. Still no ledger axis (074's note stands); 757's
+  screen-eating-disorder is a conversational trigger.
+- ACTIVITY FACTORS. The 1.2 / 1.375 / 1.55 / 1.725 multipliers are a
+  conventional set; no validation of category self-selection against DLW was
+  read this pass.
+- NON-TRAINING PROTEIN IN A DEFICIT. 062 owns the band with resistance
+  training and the over-65 floor; a deficit protein target for adults under 65
+  who do not lift was not sourced. 757 speaks 062 and recommends training.
+- NOT SEARCHED: deficit sizing for gain (surplus) goals beyond 012's note,
+  GLP-1 medication users, menstrual-cycle water shifts in the weigh-in reading.
