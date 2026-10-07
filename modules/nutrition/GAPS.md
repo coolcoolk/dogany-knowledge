@@ -796,3 +796,45 @@ Added 2026-10-07. One item.
   recorded on 030 as swap_rules.logged_foods_only_contract.
 - STILL NOT RESEARCHED: sodium outcomes (014's gap). 030's sodium tier is a
   label-budget display rule and does not close it.
+
+## nutrition -- craft lane (@meal-craft), v49 addendum: 회식 on a cut
+
+Added 2026-10-07. One item.
+
+- FILLED: nutrition/kr-hoesik-cut-rules-080 (@meal-craft, KR; D synthesis,
+  direction rows B, compensation rows C, Korean 회식 context D).
+  eating_out_rules (14 rules) for the diet card and weekly retro: pre-commit,
+  bank-modestly, protein-before, company-eats-more, anju-class-default,
+  finisher-is-a-meal, drinks-in-jan, log-next-morning-roughly,
+  next-day-resume, morning-weight-not-fat, short-night-next-day,
+  count-not-event, no-moralizing, banking-exit. Partly closes the
+  alcohol-section OPEN item 6 (Korean drinking culture beyond rates) and
+  links 072, 031, 032, 022, 074, 025, 073, 070 and sleep-recovery 015.
+- OPEN: BANKING FOR ONE EVENT. No trial was found that tested saving
+  calories on the day (or days) before a single planned social meal and
+  measured intake at that meal or weekly balance. 080 rests on the
+  6-month intermittent-vs-continuous equivalence (Headland 2016) and on
+  small meal-skipping crossovers (Levitsky 2013). Whether pre-event
+  restriction raises intake at the event (the restraint / disinhibition
+  prediction) is untested in this setting. No banking kcal figure ships.
+- OPEN: NEXT-DAY COMPENSATION BEYOND YOUNG MEN. Deighton 2019 is n=12 men
+  aged ~22 after one day at +50 percent. Nothing read in women, older
+  adults, people already dieting, or after a day that included alcohol.
+- OPEN: COLLEAGUES AS CO-EATERS. Ruddock 2019 splits friends/family
+  (effect) from strangers/acquaintances (no effect); work colleagues were
+  not analysed as a group. Full text not read (publisher copy 403); the
+  moderator details (gender, weight status) are abstract-level only.
+- OPEN: KOREAN 회식 DATA. The only numbers carried are one advocacy-
+  commissioned 1,000-worker survey (직장갑질119, 2024) read through a news
+  report; the survey report itself was not located. The MFDS 주류 소비·섭취
+  실태조사 (2017, 2020; per-occasion 잔 by drink, 폭탄주 experience,
+  drinking companions) was located only through press summaries; the
+  report and its 회식-setting tables were not read. No study of energy
+  intake at a Korean 회식 (food plus drink) was found.
+- OPEN: KOREAN MEAT-CUT ENERGY. 삼겹살 vs 목살 values (national standard
+  food composition table, RDA) were seen only on a retail page (331 vs
+  180 kcal per 100 g raw); not read at source, so 080's 고깃집 rule stays
+  structural (count pieces, fill with 쌈) with no cut ranking.
+- NOT SEARCHED: hangover and next-day food choice; alcohol absorption with
+  vs without food (080 keeps a protein meal before on 031's grounds only);
+  drink-refusal interventions.

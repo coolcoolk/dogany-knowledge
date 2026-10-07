@@ -107,10 +107,10 @@
     {
       "id": "nutrition",
       "path": "modules/nutrition",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "published": true,
-      "sha256": "1f39d70a38318f7e28e3a7a7c58edb6a683c8b4583c08385f96ad726d8f12db1",
-      "updated_at": "2026-10-07T01:13:52Z",
+      "sha256": "195beba95235f447ef718077edf11ab5c21d1f4400e227131090a3d0bc3bd395",
+      "updated_at": "2026-10-07T02:52:10Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -129,6 +129,7 @@
         "items/nutrition-kr-convenience-protein-options-030.md",
         "items/nutrition-kr-eating-out-fat-loss-072.md",
         "items/nutrition-kr-food-composition-accuracy-016.md",
+        "items/nutrition-kr-hoesik-cut-rules-080.md",
         "items/nutrition-kr-mixed-dish-logging-unit-020.md",
         "items/nutrition-kr-protein-exchange-counting-021.md",
         "items/nutrition-kr-reference-intakes-2025-014.md",
