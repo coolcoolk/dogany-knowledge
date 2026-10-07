@@ -9,6 +9,13 @@
 
 module: exercise
 releases:
+  - version: 1.3.0
+    date: 2026-10-07
+    warehouse: v61
+    note: incline press angle, upper chest, shoulder load
+    added:
+      - exercise/incline-press-angle-upper-chest-shoulder-evidence-092
+      - exercise/press-angle-rules-093
   - version: 1.2.0
     date: 2026-10-07
     warehouse: v50

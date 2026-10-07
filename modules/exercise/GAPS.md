@@ -1176,3 +1176,42 @@ Time-crunched sessions (v50 provisional, 2026-10-07; provisional 090 / 091) -- f
   ~100k characters); Sodal 2023, Prestes 2019, Androulakis-Korakakis 2020,
   Spiering 2021 at abstract / record; Robbins 2010 (8-week) at repository
   record only, carried through Iversen 2021 and Zhang 2025.
+
+Press angle, upper chest and the shoulder (v61 provisional, 2026-10-07; provisional 092 / 093) --
+filled and open:
+- FILLED: 092 evidence (incline biases upper-chest growth, one trial; angle
+  EMG; shoulder by angle not studied); 093 engine-readable
+  press_angle_rules, answer_rules and never_say for program compose and the
+  "is incline easier on the shoulder" answer.
+- OPEN: ONE GROWTH TRIAL. Chaves 2020 is the only longitudinal incline vs
+  flat comparison located: 10 untrained men per arm for thickness, once a
+  week, 8 weeks, Smith machine at 44 degrees, ultrasound at three sites. No
+  trial in trained lifters, women, or at 15-30 degrees; no MRI regional
+  study. 093's 15-30 degree band and 30-degree default are constants built
+  on inconsistent EMG, not on growth data.
+- OPEN: ROTATION vs DEDICATED SLOT. The combination arm (2 flat + 2 incline
+  sets) did not beat flat for the upper chest; no trial tests one flat plus
+  one incline SESSION per week. 093 two-slots-one-low-incline is a default
+  (C/D), not a tested schedule.
+- OPEN: SHOULDER BY ANGLE. No study located compares shoulder pain, injury,
+  symptom response or modelled joint load between incline and flat
+  pressing (Noteboom 2024 modelled flat only; Lawrence 2018 modelled
+  unloaded elevation). 093's shoulder rules are D and pick the angle by the
+  user's response. A musculoskeletal-model study across bench angles, or a
+  symptom-guided crossover in lifters with subacromial pain, would replace
+  them.
+- OPEN: grip width ON THE INCLINE was not researched (Barnett 1995: narrow
+  grip raised clavicular EMG on flat, 6 men); 093 carries 064's flat-bench
+  grip rule to every angle by analogy.
+- OPEN: dumbbell neutral-grip incline and independent-arm pressing for a
+  one-sided shoulder (093 unilateral-caution-decouple) rest on practice
+  reasoning only; no study located.
+- OPEN: incline_front_delt_credit 0.5 extends 008's aggregate convention to
+  one synergist, which 008 itself flags as unverified.
+- NOT USED: Chigira et al. 2025 (J Phys Ther Sci, 0/30/60 degrees EMG in
+  beginners) is retracted.
+- SOURCE NOTES: Chaves 2020 and Rodriguez-Ridao 2020 at full text (PMC);
+  Lauver 2016, Barnett 1995, Trebs 2010, Lawrence 2018 at abstract / record;
+  the J Electromyogr Kinesiol 2022 acute study at abstract (author list not
+  confirmed); Chernov 2025 at repository record; Somerset & Pope excerpt
+  read.
