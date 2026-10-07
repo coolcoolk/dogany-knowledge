@@ -9,6 +9,22 @@
 
 module: exercise
 releases:
+  - version: 1.6.0
+    date: 2026-10-07
+    warehouse: v96
+    note: squat depth with knee caution
+    added:
+      - exercise/squat-knee-rules-711
+      - exercise/squat-stance-box-tempo-knee-load-evidence-710
+  - version: 1.6.0
+    date: 2026-10-07
+    warehouse: v89
+    # Dispatch a research sprint; item numbers 710-711 are this
+    # branch's claim from block 710..714, renumber at the consolidation merge.
+    note: squat depth, stance, box and tempo with a cautious knee; switch to leg press or split squat
+    added:
+      - exercise/squat-stance-box-tempo-knee-load-evidence-710
+      - exercise/squat-knee-rules-711
   - version: 1.5.0
     date: 2026-10-07
     warehouse: v68

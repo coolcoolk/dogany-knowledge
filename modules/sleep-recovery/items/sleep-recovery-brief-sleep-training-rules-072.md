@@ -28,6 +28,7 @@ sources:
   - "sleep-recovery/tracker-accuracy-003"  # sleep_min is a wearable estimate, not polysomnography
   - "sleep-recovery/hour-target-is-a-threshold-consensus-013"  # 7 h is a threshold consensus, not a personal target
   - "sleep-recovery/regularity-appetite-brief-rules-016"  # (v38) the weekly, regularity and appetite brief rules beside this row's single-night rules; the brief_guards here govern its sleep_rules block too
+  - "sleep-recovery/early-training-sleep-rules-676"  # (v89) the EVENING brief before a 05:00-06:00 session (lights-out line, lights down, after-weekend shift, lying awake, feels-fine copy for repeated-short-nights); sits under the brief_guards here
   - "sleep-recovery/short-night-rules-081"  # (v40) a late night with a stated cause -- late social event, drinking, sleeping away -- and the morning session (keep / keep-capped / swap / rest-offered); sits under the brief_guards here
   - "framework:GRADE -- the DIRECTIONS (keep the morning session after a short night, nap to repay, caffeine against bedtime, hard work well before bed) rest on B and C rows. The thresholds (360 and 420 minutes, 3 of 7 nights, 1 h and 4 h windows, nap end time) are product constants with no direct evidence for these exact numbers."
 applicability:

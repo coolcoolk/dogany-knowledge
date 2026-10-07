@@ -40,6 +40,7 @@ sources:
   - "sleep-recovery/caffeine-bedtime-cutoff-070"  # coffee-nap caffeine still counts against bedtime
   - "sleep-recovery/short-night-rules-081"  # the stated-cause short night block; one line per brief across both
   - "sleep-recovery/regularity-appetite-brief-rules-016"  # naps inside sleep_min; earlier bedtime or nap preferred to a lie-in
+  - "sleep-recovery/early-training-sleep-rules-676"  # (v89) evening brief before an early session; after a weekend lie-in the nap and next night repay, not an earlier bedtime
   - "framework:GRADE -- directions are inherited from 084 (C for the 10-20 min default after a short night, the 90 min caution, the evening-lift strength null, the coffee nap, late naps and the night; B for inertia being worst in the first 15-30 min and for an evening nap spending sleep pressure), 009 (B force null, C nap parameters) and 070 (B/C cutoffs). The boundaries -- 360 min as a short night (072), 10-20 min asleep and a 25 min alarm, the 30 min and 60 min wake buffers, 90 min as a long nap, a nap ending by 16:00 and at least 6 h before usual bedtime -- are product constants or source edges."
 applicability:
   axes:

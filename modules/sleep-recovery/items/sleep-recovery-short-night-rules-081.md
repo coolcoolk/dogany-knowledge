@@ -36,6 +36,7 @@ sources:
   - "sleep-recovery/brief-sleep-training-rules-072"  # plain short-night lines and the brief_guards this block sits under
   - "sleep-recovery/sleep-loss-performance-decrement-004"  # late bedtime with usual wake time; AM sessions largely spared
   - "sleep-recovery/regularity-appetite-brief-rules-016"  # data reality (sleep_min only), late-lie-in and evening-appetite lines that may follow a late night
+  - "sleep-recovery/early-training-sleep-rules-676"  # (v89) the evening brief before an early session; one sleep line across both blocks
   - "sleep-recovery/adult-injury-risk-not-established-006"  # why no rule speaks an injury figure
   - "nutrition/alcohol-training-recovery-dose-031"  # g/kg dose bands (light < 0.25, moderate 0.25-0.75, heavy >= 0.75); no-moralizing rule
   - "nutrition/kr-alcohol-units-drinking-pattern-032"  # soju / beer to grams

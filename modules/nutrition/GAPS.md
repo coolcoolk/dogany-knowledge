@@ -930,3 +930,49 @@ OPEN -- searched and not shipped:
   eating rate and texture as satiety levers, the 2022+ ultra-processed
   replication trials, Korean 감자/고구마 satiety (the satiety index is 1995
   Australian foods).
+
+## nutrition -- eating out and convenience food on a cut (KR), sodium, v89 addendum
+
+Appended at end-of-file (concurrent appends). Dispatch
+a research sprint, 2026-10-07. Lane @meal-craft.
+
+WHAT LANDED. nutrition/kr-convenience-restaurant-menu-choice-715 (D synthesis;
+numbers C, inherited from 030 and 022): menu_choice_rules 12 and a combos table
+for the 편의점 / 도시락 / 국밥-탕 / 면 / 김밥 / 분식 lunch, linked to 030, 022, 072,
+080 and 063. nutrition/sodium-bp-evidence-cut-716 (B direction, contested):
+sodium_rules 7. 716 PARTLY answers the v21 "SODIUM AND THE KOREAN DIET" gap and
+014's sodium note: blood-pressure direction and one outcome trial are graded;
+the sodium-mortality curve is NOT adjudicated.
+
+RERUN-NEEDED -- SOURCE ACCESS. The egress proxy refused K-FIND
+(various.foodsafetykorea.go.kr), foodsafetykorea, kca.go.kr, PubMed, PMC,
+BMJ, and every Korean news host this pass. Re-read at source: He 2013 BMJ
+f1325 (subgroups, dose-response), Neal 2021 NEJM SSaSS (exclusion criteria,
+hyperkalaemia data; DOI unconfirmed), O'Donnell 2014 NEJM (DOI unconfirmed),
+Heer 2000 (PMID 10751219), the 2020 KDRI sodium chapter, and the KCA 2023-06-28
+도시락 press release (product count, brands, per-product kcal / protein / sodium
+-- one search summary called the products 김밥, the headline and two others
+도시락).
+
+OPEN -- searched and not shipped:
+- 2025 KDRI SODIUM VALUE. 014 read the 2025 edition for other nutrients only.
+  716 uses the 2020 CDRR (2,300 mg) seen via secondary records. What would
+  close it: the 2025 comparison table (014's attachment seq 3) read for sodium.
+- 김밥 ROLL AND 분식 VALUES. No measured kcal / protein / sodium for a 김밥 roll,
+  떡볶이, 라볶이, 쫄면, 순대 or 분식 튀김 is in the warehouse. 022 excluded 김밥
+  from its medians and does not table dish rows; the 2012-13 and 2017 MFDS
+  외식 영양성분 자료집 (foodsafetykorea.go.kr/upload/mkisna/2013.pdf, 2017.pdf)
+  carry them but were blocked. 715 ships structural rules only.
+- 편의점 도시락 PER-PRODUCT. Still no per-product table (030's v38 note stands);
+  715 relies on the product label and a 700 kcal estimated fallback.
+- BROTH SHARE OF SODIUM. Still unmeasured for Korean soups (v37 item 1). A
+  search found recipe-level reduced-salt studies (seaweed soup, 어묵국) but no
+  broth-vs-solids split for restaurant servings; 715 and 716 give the broth
+  lever in words only.
+- SCALE AFTER ONE SALTY MEAL. Heer 2000 measured steady-state high intake, not
+  the acute day after a salty dinner; a metabolic study of an acute change
+  from low to high intake was seen only as a title. 080's morning-weight rule
+  names salty food as one cause; that wording was left as is (it does not
+  give a number) and 716 adds the hedge.
+- NOT SEARCHED: salt sensitivity, potassium intake targets, sodium in
+  lifters' sweat losses, Korean urinary sodium trends (KNHANES).

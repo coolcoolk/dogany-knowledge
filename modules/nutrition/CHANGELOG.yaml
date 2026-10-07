@@ -9,6 +9,20 @@
 
 module: nutrition
 releases:
+  - version: 1.5.0
+    date: 2026-10-07
+    warehouse: v97
+    note: convenience store and eating out on a cut
+    added:
+      - nutrition/kr-convenience-restaurant-menu-choice-715
+      - nutrition/sodium-bp-evidence-cut-716
+  - version: 1.4.0
+    date: 2026-10-07
+    warehouse: v89
+    note: Korean convenience / restaurant menu choice on a cut; sodium evidence (module version not bumped by this branch; set at merge)
+    added:
+      - nutrition/kr-convenience-restaurant-menu-choice-715
+      - nutrition/sodium-bp-evidence-cut-716
   - version: 1.4.0
     date: 2026-10-07
     warehouse: v87

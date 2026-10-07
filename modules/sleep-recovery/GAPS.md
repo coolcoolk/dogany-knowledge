@@ -323,3 +323,49 @@ and not filled:
   wake day (016), so a logged nap cannot be told apart from night sleep in
   today's store. 085 serves the answer path until a nap flag or onset/wake
   times are stored (the sleep-rules field guide (not public)).
+
+v89 (provisional) EARLY-TRAINING BEDTIME SPRINT (2026-10-07; items 675-676, numbers are this branch's
+claim). Landed: early-training-bedtime-wake-regularity-675 (B/C/D: Taylor
+2008 and Burgess & Eastman 2005 wake-time shift, Gooley 2011 room light,
+Brown 2022 light consensus, Wright 2013 / Stothard 2017 natural light,
+Haghayegh 2019 warm water, Van Dongen 2003 unnoticed restriction, Walsh 2021
+individual need) and early-training-sleep-rules-676 (D, engine-readable
+early_training_sleep_rules for the EVENING brief, under 072's guards).
+072 / 081 / 085 gained one source line each. OPEN after it, searched and
+not filled:
+- SOURCES READ AS SEARCH-INDEX RECORDS ONLY. PubMed, PMC, publisher hosts and
+  the repository PDFs (LJMU, Colorado, UPenn) were refused by the egress
+  proxy. Taylor 2008, Wright 2013, Stothard 2017, Gooley 2011 and Walsh 2021
+  DOIs / PMIDs were not confirmed; Stothard's effect sizes and Walsh 2021's
+  sleep toolbox table were not read and are not used. -> A re-audit with
+  PubMed / PMC access should open Burgess & Eastman 2005, Taylor 2008,
+  Gooley 2011 and Brown 2022 at full text and check each number in 675.
+- NO EARLY-TRAINER WEEK. No study measures weekday vs weekend sleep timing in
+  people who train at 05:00-06:00, or how long the Sunday-night onset delay
+  lasts for them. 675's 3.5-hour example is arithmetic on the user's own
+  alarm, not a measured shift.
+- HOW MUCH LIE-IN IS SAFE. Taylor 2008 tested about 3 h; no dose-response
+  (1 h vs 2 h vs 3 h) on Monday phase or sleepiness was located. 676's
+  2-hour weekend line is 016's product constant.
+- LIGHT AT 04:30. Whether bright gym light shortly after a 04:30 alarm
+  advances or delays the clock depends on the body-temperature low (travel
+  002), which no rule can know; 676 therefore speaks only daylight after the
+  session. -> Fetch any phase-response study of light in the first hour
+  after a habitual very early wake.
+- WIND-DOWN BEYOND WARM WATER. No trial of a fixed pre-bed routine length
+  (676's 60 min is a product constant) or of screen curfews with a sleep
+  endpoint in athletes was located; Chang 2015 / 012 stay the screen
+  mechanism.
+- STEPPED BEDTIME ADVANCE WITHOUT MELATONIN. The located phase-advance
+  protocols (Crowley & Eastman 2015 and earlier Eastman lab work) combine
+  morning bright light with afternoon melatonin; 676's 30-min steps borrow
+  the gradual-shift idea without the melatonin arm and are a product
+  constant. Melatonin stays routed to 008.
+- WOMEN, OLDER LIFTERS, LATE CHRONOTYPES AT 05:00. All wake-time and
+  camping studies are small, young-adult samples; Wright 2013 says later
+  chronotypes shifted most, which is where a 05:00 schedule bites hardest,
+  but no trial tests them on an early training schedule.
+- DATA DEPENDENCY, not evidence. eve-after-weekend-shift and
+  weekend-wake-anchor need onset_wake_times; lying-awake-* need a stated
+  awake_in_bed fact; usual_wake_training and usual_bedtime are stated
+  profile facts. Until stored, those rules serve the answer path only.

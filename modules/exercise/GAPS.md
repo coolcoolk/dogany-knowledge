@@ -1320,3 +1320,45 @@ filled and open:
 - OPEN (merge note): 060's life-stress-or-travel trigger, 084's stressed
   week and 097's trip mode can all fire on the same calendar week; 097 only
   offers the deload, and how the composer orders the three is not specified.
+- LINKED (v89 provisional): travel 680
+  (jet-lag field data, first-day dip, melatonin boundary) and travel 681
+  (jet_lag_rules) now sit beside 097. 681's training-handoff rule reads
+  097 jetlag-easy-days / jetlag-slot and lets the light side win when the
+  two disagree; 097 itself is unchanged. 680's Lemmer 2002 westward
+  training dip is a reason not to make 097's easy-day count east-only.
+
+
+Squat with a cautious knee (v89, 2026-10-07) -- filled and open:
+- FILLED: 710 squat stance / box / tempo / switch-target knee-load evidence
+  (C/D, contested) and 711 squat_knee_rules (D synthesis: box start near
+  45 deg, depth-and-load step-back together, stance by response, tempo not a
+  knee tool, two-breach switch to leg press (both knees) or split squat (one
+  knee), named squat stays, return after 2 weeks). Extends 058 and 057; no
+  existing item changed.
+- RERUN-NEEDED: every 710 source was read only as a web-search index
+  rendering of its abstract or record (egress proxy refused pubmed, pmc,
+  biomedcentral, crossref and the university repositories on 2026-10-07).
+  WANTED at primary: Escamilla 2001 (stance-by-exercise force magnitudes),
+  the EJSS 2021 female depth x load paper (authors, n, stress numbers) and
+  its Montana State thesis (stance-width results, not read at all), Swinton
+  2012 (peak knee moments by squat style -- not in the rendering), Mackey
+  2021 (relative-load caveat, knee moment values), Severin 2017 (n, symmetry
+  indices), Appl Sci 2025 15(16):8784 (authors, loads).
+- OPEN: NO knee-pain outcome trial for any squat lever. Stance width, box vs
+  free squat, tempo / pause, front vs back squat, and squat vs leg press vs
+  split squat have only healthy-lifter model or moment data; none compares
+  knee pain or function in lifters with patellofemoral pain.
+- OPEN: TEMPO AND KNEECAP LOAD. No study measures PF force or stress by
+  eccentric duration or pause; 711's 2-3 s descent and 1-2 s pause are
+  product constants inside Schoenfeld 2015's growth-neutral band.
+- OPEN: FRONT VS BACK SQUAT for the kneecap is contested (Sinclair 2015
+  higher in back squat at 70% 1RM; Appl Sci 2025 similar unloaded). 711
+  carries no front/back rule.
+- OPEN: ONE-SIDED KNEE UNDER A BAR. Severin 2017 is body-weight; whether a
+  lifter with one painful knee offloads it in a loaded back squat (as ACL
+  reconstruction patients do) is not studied in patellofemoral pain. 711's
+  switch-to-split-squat-one-side is mechanism and practice.
+- OPEN: 711 constants -- box notch 3-5 cm, load step-back 10-20%, two
+  consecutive breaches to switch, two weeks before a squat re-trial -- have
+  no direct evidence. Box height is not mapped to knee angle per user
+  (limb length); the composer has no knee-angle input.

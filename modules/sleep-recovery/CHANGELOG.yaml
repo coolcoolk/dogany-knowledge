@@ -9,6 +9,28 @@
 
 module: sleep-recovery
 releases:
+  - version: 1.3.0
+    date: 2026-10-07
+    warehouse: v90
+    note: bedtime for early-morning training
+    added:
+      - sleep-recovery/early-training-bedtime-wake-regularity-675
+      - sleep-recovery/early-training-sleep-rules-676
+    changed:
+      - sleep-recovery/brief-sleep-training-rules-072
+      - sleep-recovery/nap-brief-rules-085
+      - sleep-recovery/short-night-rules-081
+  - version: 1.3.0
+    date: 2026-10-07
+    warehouse: v89
+    note: the night before a 05:00-06:00 session (bedtime, weekend wake shift, evening light, wind-down)
+    added:
+      - sleep-recovery/early-training-bedtime-wake-regularity-675
+      - sleep-recovery/early-training-sleep-rules-676
+    changed:
+      - sleep-recovery/brief-sleep-training-rules-072
+      - sleep-recovery/short-night-rules-081
+      - sleep-recovery/nap-brief-rules-085
   - version: 1.2.0
     date: 2026-10-07
     warehouse: v67
