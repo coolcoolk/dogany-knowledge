@@ -1,0 +1,56 @@
+# Module changelog for `exercise`. One per module; newest release first.
+#
+# version is the module's own semver (independent of the warehouse release
+# number in the root CHANGELOG.yaml). Event classes are the same as the root
+# changelog (added / changed / retracted / grade_transitions /
+# lane_transitions); item ids keep the warehouse grammar <domain>/<slug>-NNN.
+# The top entry's version must equal this module's version in modules.json
+# (lint-enforced).
+
+module: exercise
+releases:
+  - version: 1.0.1
+    date: 2026-10-07
+    warehouse: v45
+    # Public-scrub patch (2026-10-07): personal passages moved out of the
+    # module; the items keep neutral wording. Third-party PDF copies
+    # replaced by DOI links. No rule, grade or id change.
+    note: public-scrub patch
+    changed:
+      - exercise/acute-static-stretch-force-deficit-021
+      - exercise/adjacent-session-overlap-cost-067
+      - exercise/body-ideal-archetype-map-032
+      - exercise/caution-severity-ladder-056
+      - exercise/deload-planned-vs-reactive-060
+      - exercise/doms-timeline-mechanism-023
+      - exercise/dynamic-warmup-same-day-performance-022
+      - exercise/early-morning-performance-warmup-068
+      - exercise/female-training-considerations-020
+      - exercise/harm-route-boundary-031
+      - exercise/ideal-classic-physique-x-taper-033
+      - exercise/ideal-climber-bouldering-046
+      - exercise/ideal-crossfit-functional-036
+      - exercise/ideal-cyclist-050
+      - exercise/ideal-dancer-051
+      - exercise/ideal-grappler-ssireum-wrestler-047
+      - exercise/ideal-pilates-controlled-movement-037
+      - exercise/ideal-racket-sports-053
+      - exercise/ideal-rower-049
+      - exercise/ideal-ski-snowboard-052
+      - exercise/ideal-sprinter-athletic-048
+      - exercise/injury-history-reinjury-risk-054
+      - exercise/machine-first-selection-rules-076
+      - exercise/machine-free-weight-equivalence-075
+      - exercise/prep-on-fatigued-muscle-two-effects-026
+      - exercise/recovery-kinetics-session-spacing-025
+      - exercise/recovery-modality-soreness-vs-performance-024
+      - exercise/rir-accuracy-readiness-signals-061
+      - exercise/set-floor-rule-072
+      - exercise/stress-training-load-rules-084
+      - exercise/tendon-fascia-load-management-055
+      - exercise/warmup-load-rampup-progression-018
+      - exercise/warmup-ramp-sets-heavy-compounds-080
+  - version: 1.0.0
+    date: 2026-10-07
+    warehouse: v43
+    note: split from warehouse v42

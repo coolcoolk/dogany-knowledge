@@ -1,0 +1,24 @@
+# Module changelog for `sleep-recovery`. One per module; newest release first.
+#
+# version is the module's own semver (independent of the warehouse release
+# number in the root CHANGELOG.yaml). Event classes are the same as the root
+# changelog (added / changed / retracted / grade_transitions /
+# lane_transitions); item ids keep the warehouse grammar <domain>/<slug>-NNN.
+# The top entry's version must equal this module's version in modules.json
+# (lint-enforced).
+
+module: sleep-recovery
+releases:
+  - version: 1.0.1
+    date: 2026-10-07
+    warehouse: v45
+    # Public-scrub patch (2026-10-07): personal passages moved out of the
+    # module; the items keep neutral wording. Third-party PDF copies
+    # replaced by DOI links. No rule, grade or id change.
+    note: public-scrub patch
+    changed:
+      - sleep-recovery/early-morning-session-071
+  - version: 1.0.0
+    date: 2026-10-07
+    warehouse: v43
+    note: split from warehouse v42
