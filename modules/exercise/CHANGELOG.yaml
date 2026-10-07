@@ -9,6 +9,13 @@
 
 module: exercise
 releases:
+  - version: 1.5.0
+    date: 2026-10-07
+    warehouse: v68
+    note: keeping training on trips
+    added:
+      - exercise/travel-detraining-minimum-dose-evidence-096
+      - exercise/travel-training-rules-097
   - version: 1.4.0
     date: 2026-10-07
     warehouse: v62

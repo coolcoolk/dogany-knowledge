@@ -1266,3 +1266,57 @@ Stepmill in a lifter's cut (v62 provisional, 2026-10-07; provisional 094 / 095) 
   pacompendium.com activity tables; Martin 2019 and Steele 2021 at PMC;
   Byrne 2005, Halder 2018, O'Driscoll 2020 at abstract; Kutzner 2010 at
   record / secondary report; Garber 2011 through Kravitz's summary.
+
+Travel-training sprint (v68 provisional, 2026-10-07; provisional 096 / 097, renumber at merge) --
+filled and open:
+- FILLED: exercise/travel-detraining-minimum-dose-evidence-096 (detraining
+  over <=2 weeks, what moves first, who loses more, light-load / push-up /
+  band stand-ins, exercise phase-response windows, sleep loss, consensus
+  easy days after a long-haul arrival) and exercise/travel-training-rules-097
+  (engine-readable travel_training_rules for a trip block of 3-14 days).
+  Links 071 (keep-dose), 087 (under-3-week resume), 060 (deload into travel),
+  091 (short slot) and travel 001 / 002 / 003; restates none of them.
+- ACCESS: PubMed, PMC, Europe PMC and publisher pages were refused by the
+  network policy in the authoring session. Every external row in 096 was
+  checked against its abstract as a search engine indexes it, not at full
+  text. Hortobagyi 1993's type II fibre-area figure was not confirmed and is
+  not carried as a number. WANTED: full-text re-read of Bosquet 2013 (the
+  per-duration subgroup -- is there a <=2-week estimate for trained
+  people?), Hwang 2017 (effect sizes, lean mass) and Youngstedt 2019 (shift
+  sizes in hours).
+- OPEN: NO TRIP-SHAPED TRIAL. No study puts lifters on a real trip (hotel
+  gym, travel days, time-zone shift) and measures strength or size with and
+  without trip sessions. The no-loss direction is borrowed from
+  lab-detraining with complete rest, which is harsher than a trip with
+  walking, so it errs safe.
+- OPEN: 097's 7-day optional line, the 60-year age line, RIR 0-2 within 30
+  reps for light-load sets, the 3-zone jet-lag threshold, 3 easy days east /
+  2 west, the RIR-3 easy-day floor, the widened advance window (06:00-09:00)
+  and the 3-day body-clock assumption are product constants with no direct
+  evidence.
+- OPEN: EXERCISE AS A JET-LAG TREATMENT. Youngstedt 2019 is a lab study on
+  a fixed schedule; no trial tests timed lifting (or any exercise) as a
+  jet-lag intervention in travellers, and no study combines it with timed
+  light. 097 uses the windows only as a tie-breaker that must agree with the
+  travel lane's light plan. When the AASM Treatment of Jet Lag Disorder
+  guideline appears (its scope names timed exercise; see the travel GAPS
+  item 001 note), 096 / 097 jetlag-slot and jetlag-easy-days need a re-check.
+- OPEN: JET LAG AND STRENGTH. Field evidence is equivocal (Botonis 2025);
+  the only strength series found is a single-athlete case report (handgrip
+  dips for 3-4 days after a 6-zone eastward flight, PMC12929551, not read).
+  No study in recreational lifters or on resistance-training sessions after
+  a flight.
+- OPEN: STAND-IN EQUIVALENCE. Kikuchi 2017 matched push-up load to 40% bench
+  by position (n=18, young men); hotel rows, split squats and single-leg
+  hinges as stand-ins for barbell rows, squats and deadlifts are untested;
+  Lopes 2019 pools 8 mixed-population band studies. No data on women or
+  older adults doing bodyweight-only maintenance for 1-2 weeks.
+- OPEN: WOMEN, OLDER ADULTS, KOREAN SAMPLES. Hwang 2017 and Hortobagyi 1993
+  are young men; Bosquet 2013 says losses are larger over 65 but no
+  short-trip figure for them was read. No Korean or East Asian sample.
+- NOT COVERED: flight-day movement and VTE (travel 003), the jet-lag light /
+  melatonin plan (travel 001 / 002), eating and protein on a trip during a
+  cut (nutrition), and endurance-sport travel (running mileage on a trip).
+- OPEN (merge note): 060's life-stress-or-travel trigger, 084's stressed
+  week and 097's trip mode can all fire on the same calendar week; 097 only
+  offers the deload, and how the composer orders the three is not specified.

@@ -5,10 +5,10 @@
     {
       "id": "exercise",
       "path": "modules/exercise",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "published": true,
-      "sha256": "baa966e5d046da1535b274d1c39835394e72df33ef06243777579c2632be85d7",
-      "updated_at": "2026-10-07T10:36:47Z",
+      "sha256": "47ee462b765a9b0345cf84f72e91eae467eb24d58b9817bf00d3b7fb10b9a50c",
+      "updated_at": "2026-10-07T12:10:48Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -103,6 +103,8 @@
         "items/exercise-stepmill-energy-cost-leg-load-evidence-094.md",
         "items/exercise-stress-training-load-rules-084.md",
         "items/exercise-tendon-fascia-load-management-055.md",
+        "items/exercise-travel-detraining-minimum-dose-evidence-096.md",
+        "items/exercise-travel-training-rules-097.md",
         "items/exercise-volume-doseresponse-007.md",
         "items/exercise-volume-landmarks-heuristic-015.md",
         "items/exercise-warmup-load-rampup-progression-018.md",
