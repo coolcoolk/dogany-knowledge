@@ -1215,3 +1215,54 @@ filled and open:
   the J Electromyogr Kinesiol 2022 acute study at abstract (author list not
   confirmed); Chernov 2025 at repository record; Somerset & Pope excerpt
   read.
+
+Stepmill in a lifter's cut (v62 provisional, 2026-10-07; provisional 094 / 095) -- filled and open:
+- FILLED: 094 evidence (stair-machine energy cost per kg per 20 min from
+  the 2024 Compendium, net vs gross, resting-rate spread, exercise
+  compensation, interval = continuous for fat and lean mass, local leg
+  fatigue at hard step rates, knee load on stair ascent); 095
+  engine-readable stepmill_rules, answer_rules and never_say for the
+  program's cardio slot, plugged into 063's bands, step_up, deficit_budget
+  and placement rules. Partly answers the cardio-in-a-cut OPEN line "stepmill
+  / stair climbing has no interference data at all" -- the energy, fatigue
+  and knee facts are now sourced; the interference itself is still not.
+- OPEN: STILL NO STEPMILL + LIFTING TRIAL. Nothing located puts a stair
+  climber alongside resistance training (acute or chronic), in a deficit, or
+  in trained lifters. 095 hard-is-leg-day and the post-leg-day 20-minute cap
+  are mechanism (Halder 2018 local fatigue) plus 063 guard-leg-day (D). The
+  only stair-plus-other-training trials found were in older adults (walking
+  plus stair climbing, no added effect) and are not carried.
+- OPEN: ONE COMPENDIUM ENTRY. 02065 "stair treadmill ergometer, general"
+  (9.3 MET) has no step-rate or load breakdown; 095's easy / moderate rows
+  borrow the stair-climbing entries (17133 / 17131). A study measuring VO2
+  across stepmill step rates (steps per minute or floors per minute) in
+  adults would let the engine use the machine's level instead of RPE.
+- OPEN: HANDRAIL AND CONSOLE. The handrail effect rests on one unpublished
+  thesis (StairMaster Gauntlet, record only); Howley et al. 1992 (Med Sci
+  Sports Exerc 24:1055) located by citation, not read. No validation of
+  stepmill console kcal or of wrist devices on a stepmill was found
+  (O'Driscoll 2020 covers devices in general).
+- OPEN: COMPENSATION IN A LOGGED CUT. E-MECHANIC (Martin 2019) let people
+  eat freely; 095's "low end for expectations, high end for the ceiling"
+  and no-eat-back use it as a direction, not a discount. No trial measured
+  how much exercise energy shows up as fat loss when intake is tracked in a
+  lifter's cut.
+- OPEN: DURATION vs INTENSITY ORDER. Steele 2021 says the intensity pattern
+  does not change fat or lean mass (mostly untrained, many groups not
+  work-matched). No trial compares adding minutes with adding intensity in
+  lifters, or measures leg-strength cost by cardio intensity on a stepmill.
+  095 progress-duration-first, the 45-minute session cap, the 10-minute
+  add and the 1.43 hard-to-moderate ratio are product constants. ACSM 2011
+  (Garber) says only "progress gradually"; its full text was not read (the
+  often-quoted "5-10 min every 1-2 weeks" was not verified and is not
+  carried).
+- OPEN: KNEE AND FOOT LOAD ON A STEPMILL. Kutzner 2010 is five older
+  knee-implant patients on real stairs (record only); no patellofemoral
+  stress or plantar / Achilles load data on a stepmill were found.
+  095 knee-caution and foot-calf-caution apply 057 and 088 to this mode (D).
+- NOT USED: Viana et al. 2019 (Br J Sports Med, "Is interval training the
+  magic bullet for fat loss?") is RETRACTED (December 2020).
+- SOURCE NOTES: Herrmann 2024 Compendium at PMC full text plus the
+  pacompendium.com activity tables; Martin 2019 and Steele 2021 at PMC;
+  Byrne 2005, Halder 2018, O'Driscoll 2020 at abstract; Kutzner 2010 at
+  record / secondary report; Garber 2011 through Kravitz's summary.
