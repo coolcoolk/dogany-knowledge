@@ -5,13 +5,15 @@
     {
       "id": "exercise",
       "path": "modules/exercise",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "published": true,
-      "sha256": "a1c712f3de49e7e744886334771c8178cbd4b4ebf69d8ed87b33f49b770f01b8",
-      "updated_at": "2026-10-07T18:18:29Z",
+      "sha256": "8758b2ab0639b8c2f07edaabaf1517f6264dffd84a2baf1b6aef68be62757307",
+      "updated_at": "2026-10-07T21:50:41Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
+        "items/exercise-activation-priming-by-pattern-evidence-730.md",
+        "items/exercise-activation-rules-by-pattern-731.md",
         "items/exercise-acute-static-stretch-force-deficit-021.md",
         "items/exercise-adjacent-session-overlap-cost-067.md",
         "items/exercise-autoregulation-vs-percentage-prescription-030.md",

@@ -9,6 +9,16 @@
 
 module: exercise
 releases:
+  - version: 1.7.0
+    date: 2026-10-07
+    warehouse: v101
+    # Dispatch a research sprint; version and item numbers
+    # 730-731 are this branch's claim from block 730..734, renumber at the
+    # consolidation merge.
+    note: activation / stabilizer priming before heavy compounds, by movement pattern
+    added:
+      - exercise/activation-priming-by-pattern-evidence-730
+      - exercise/activation-rules-by-pattern-731
   - version: 1.6.0
     date: 2026-10-07
     warehouse: v96

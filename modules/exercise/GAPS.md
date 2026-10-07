@@ -1362,3 +1362,43 @@ Squat with a cautious knee (v89, 2026-10-07) -- filled and open:
   consecutive breaches to switch, two weeks before a squat re-trial -- have
   no direct evidence. Box height is not mapped to knee angle per user
   (limb length); the composer has no knee-angle input.
+
+
+Activation / priming sprint (2026-10-07) -- filled and open:
+- FILLED: exercise/activation-priming-by-pattern-evidence-730 (ramp carries
+  the warm-up effect, borrowed from 065 / 080; low-load glute activation
+  mixed against a control warm-up; pre-fatigue of the lift's own muscles
+  lowers the compound; no primer tested for press, row or trunk) and
+  exercise/activation-rules-by-pattern-731 (activation_rules: default off,
+  1-2 drills x 1 light set before the ramp on preference, defer to 065 / 078
+  at a caution site, no pre-fatigue before a heavy slot, drop first when
+  short; pattern_menus for horizontal_press, vertical_press, squat, hinge,
+  row). 065, 078, 080 and 081 unchanged.
+- RERUN-NEEDED: every source new to 730 was read only as a web-search index
+  rendering (egress proxy refused bmj, jssm, johk, frontiersin, pmc, the
+  St Mary's, Limerick and WKU repositories on 2026-10-07). WANTED at
+  primary: Parr 2017 (warm-up protocols, rest before the test, effect sizes
+  beyond d = 0.30), Crow 2012 (exercise list, rest, effect size), Harrison and
+  McCabe 2017 (initials, journal, protocol), the IJES conference abstract
+  (authors, year, n, loads), Soares 2016 (rep counts, triceps EMG), Augustsson
+  2003 (original abstract: n, reps, performance -- carried only via citing
+  papers), Gentil 2007 rep data, Blazevich and Babault 2019 practical section.
+- OPEN: NO trial of any primer before a HEAVY squat, deadlift, bench,
+  overhead press or row (performance, bar speed, reps or injury). The
+  glute-activation trials test jumps, sprints or an 80% hang pull. Wanted: a
+  crossover of ramp-only vs ramp + light primer on bar velocity or reps at
+  >= 80% 1RM.
+- OPEN: NO trial of a serratus punch, plate pullover, light fly, bracing drill
+  or band pull-apart before pressing or rowing, for anything but EMG. 731's
+  pattern_menus are unranked practitioner choices.
+- OPEN: PRIMER DOSE AND THE FATIGUE LINE. The pre-fatigue trials used 10RM
+  to failure; nothing locates the dose at which a light synergist set starts
+  to cost the compound. 731's one set, 8-12 reps, 5+ in reserve, 3 minutes
+  and the heavy trigger (<= 6 reps or >= 80% 1RM) are product constants.
+- OPEN: TRUNK PRE-FATIGUE before a loaded squat or deadlift has no
+  performance study (one small quasi-experiment on body-weight squat
+  kinematics after core fatigue, not read at a primary); 081 / 731 keep
+  fatiguing trunk work after the main lifts by convention.
+- OPEN: primer-to-work timing. Comyns 2015 saw a jump drop 0.5-6 min after a
+  glute series; no study times a primer before a heavy lift. 731's
+  primer-before-ramp placement is direction only.
