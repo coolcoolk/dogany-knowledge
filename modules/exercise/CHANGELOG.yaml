@@ -9,6 +9,13 @@
 
 module: exercise
 releases:
+  - version: 1.2.0
+    date: 2026-10-07
+    warehouse: v50
+    note: short sessions when time is tight
+    added:
+      - exercise/short-session-time-efficiency-evidence-090
+      - exercise/short-session-rules-091
   - version: 1.1.0
     date: 2026-10-07
     warehouse: v47

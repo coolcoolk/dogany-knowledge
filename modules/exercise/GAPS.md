@@ -1136,3 +1136,39 @@ Elbow tendinopathy / pulling lifters (v46 provisional, 2026-10-07; provisional 0
   2022 editorial at full text; Coombes 2013, Karanasios 2021, Peterson
   2011 / 2014, Coombes 2016, Vuvan 2020, Struijs 2001 at abstract; See 2026
   and Tyler 2014 at record.
+
+Time-crunched sessions (v50 provisional, 2026-10-07; provisional 090 / 091) -- filled and open:
+- FILLED: 090 time-efficiency evidence (supersets by pairing type, drop
+  sets, rest-pause, rest by lift type via 017, warm-up and stretching cuts,
+  minimum dose per session); 091 engine-readable short_session_rules and
+  cut_order for the daily program (set-keeping levers ahead of 072's
+  trim_order, weekly carry, micro-session, cardiovascular density gate).
+- OPEN: NO HEAD-TO-HEAD OF THE LEVERS. No trial compares supersets, shorter
+  rest, drop sets and dropping exercises under one fixed time budget. 091's
+  cut_order is product judgement (D); this extends the 072 "trim exercises
+  vs trim sets" gap above.
+- OPEN: SHORTEN vs SKIP. No trial randomises a shortened session against a
+  skipped one in an otherwise fixed week. 091 "shorten-not-skip" and the
+  20-minute micro-session line are inferred from minimum-dose data
+  (Androulakis-Korakakis 2020, Spiering 2021, 071).
+- OPEN: CHRONIC SUPERSET DATA ARE THIN. Zhang 2025 has three chronic trials
+  (mostly trained young men); the pairing-type split (agonist-antagonist
+  keeps reps, same-muscle cuts volume load) is acute. No chronic trial of
+  upper-with-lower supersets, and none that superset a heavy lower-body
+  barbell compound. 091's "filler set inside the primary rest" is C/D.
+- OPEN: DROP-SET ACCOUNTING. No study defines how many weekly sets a drop
+  set is worth; 091 counts it as one and lets it replace one of three
+  accessory sets (D). Sodal 2023 is 6 studies, 142 people aged 19-27.
+- OPEN: rest-pause rests on one 18-person trial (Prestes 2019) whose
+  thigh-size advantage (11% vs 1%) is unreplicated; not used as a growth
+  claim.
+- OPEN: no time-efficiency trial in adults over 60, in women as a
+  majority, or in people with a cardiovascular condition; 091's density
+  gate skips superset / short-rest / drop-set levers for the last group
+  without evidence of harm (D).
+- OPEN: the rest-restore trigger (a set 2+ reps under the previous one) is
+  a product constant; RIR-by-rest thresholds remain undetermined (017).
+- SOURCE NOTES: Zhang 2025 and Iversen 2021 at full text (PMC, first
+  ~100k characters); Sodal 2023, Prestes 2019, Androulakis-Korakakis 2020,
+  Spiering 2021 at abstract / record; Robbins 2010 (8-week) at repository
+  record only, carried through Iversen 2021 and Zhang 2025.

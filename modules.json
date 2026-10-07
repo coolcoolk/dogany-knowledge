@@ -5,10 +5,10 @@
     {
       "id": "exercise",
       "path": "modules/exercise",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "published": true,
-      "sha256": "a839b2541bf2789a376261b5dc7bd826f10ab9d0bd9c37fb43422de09ed0154d",
-      "updated_at": "2026-10-07T01:15:27Z",
+      "sha256": "f1289370de8122d942a5a7cd33f600c2916efb1f6ca3f87ae461caaf5ac37f76",
+      "updated_at": "2026-10-07T04:29:35Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -91,6 +91,8 @@
         "items/exercise-set-counting-volume-unit-009.md",
         "items/exercise-set-floor-by-experience-070.md",
         "items/exercise-set-floor-rule-072.md",
+        "items/exercise-short-session-rules-091.md",
+        "items/exercise-short-session-time-efficiency-evidence-090.md",
         "items/exercise-shoulder-prehab-dose-074.md",
         "items/exercise-shoulder-prep-specific-vs-general-065.md",
         "items/exercise-shoulder-pressing-selection-cuff-work-064.md",
