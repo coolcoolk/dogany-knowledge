@@ -1100,3 +1100,39 @@ Plantar heel pain / foot rules (v41, 2026-10-07; provisional 088 released as 088
 - SOURCE NOTES: Riel 2018 (isometric crossover), Huffer 2017, Taddei 2020,
   van Leeuwen 2016 at abstract; Riddle 2003 at record; Rathleff 2015,
   Riel 2019, Riel 2023 at full text.
+
+Elbow tendinopathy / pulling lifters (v46 provisional, 2026-10-07; provisional 089) -- filled and open:
+- FILLED: 089 lateral / medial elbow rules keyed to the 056 rungs
+  (structured elbow_rules: site, dose, swaps, placement, info_only),
+  evidence vs folklore table.
+- OPEN: NO elbow tendinopathy trial in LIFTERS. Every treatment trial is
+  lateral elbow tendinopathy in middle-aged, mostly non-lifting adults
+  (Bisset 2006 n=198, Coombes 2013 n=165, Peterson 2011 n=81 / 2014 n=120,
+  Tyler 2010 n=21, Vuvan 2020 n=40). The grip-swap order, straps, machine
+  swaps, "replace the program's wrist curls" and "after the main pulls" have
+  no trial (D).
+- OPEN: MEDIAL elbow (golfer's elbow). See 2026 review: 5 small studies,
+  143 patients, low certainty, no meta-analysis; Tyler 2014 is an
+  uncontrolled case series. 089 mirrors the lateral dose to the wrist
+  flexors (transport D). A medial RCT should replace it when one exists.
+- OPEN: the elbow pain rule. 089 uses about 3/10 during the forearm
+  exercise and settled by morning (Coombes 2015, expert commentary); 055's
+  5/10 ceiling (Achilles, Silbernagel 2007) is the outer limit for the gym
+  lifts. Neither was tested in elbow tendinopathy. The rule is likely to
+  need a decision when 055 / 056 next change.
+- OPEN: 056's tendon modifier and 055's tissue list (patellar, Achilles,
+  rotator cuff) do not name the elbow; 089 applies them by analogy. A
+  smallest-edit pointer from 056 (line "other joints have no graded loading
+  row yet") to 089 was NOT made on this branch (left to the merge, to avoid
+  colliding with sibling edits to 056).
+- OPEN: distal biceps tendinopathy (front-of-elbow ache without a tear) was
+  not researched; 089 routes front-of-elbow pain to triage.
+- OPEN: no elbow source checked for the circulating "10,000 elbow
+  extensions a week" lifter claim seen in secondary web copy; no primary
+  found, not carried.
+- OPEN: Lowdon 2024 (J Hand Surg Am) network meta-analysis found at record
+  only (abstract not released); not read, not cited.
+- SOURCE NOTES: Bisset 2006, Tyler 2010, Coombes 2015 and the Stasinopoulos
+  2022 editorial at full text; Coombes 2013, Karanasios 2021, Peterson
+  2011 / 2014, Coombes 2016, Vuvan 2020, Struijs 2001 at abstract; See 2026
+  and Tyler 2014 at record.

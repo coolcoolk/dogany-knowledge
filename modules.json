@@ -5,10 +5,10 @@
     {
       "id": "exercise",
       "path": "modules/exercise",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "published": true,
-      "sha256": "196c4f676b0cd1888047e710f0757704191758daa2500e212c9f14d9ba4c28a6",
-      "updated_at": "2026-10-07T00:46:55Z",
+      "sha256": "a839b2541bf2789a376261b5dc7bd826f10ab9d0bd9c37fb43422de09ed0154d",
+      "updated_at": "2026-10-07T01:15:27Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -31,6 +31,7 @@
         "items/exercise-early-morning-performance-warmup-068.md",
         "items/exercise-early-morning-session-brief-rules-073.md",
         "items/exercise-effective-sets-fractional-008.md",
+        "items/exercise-elbow-tendinopathy-pulling-lifter-rules-089.md",
         "items/exercise-emg-not-hypertrophy-proxy-013.md",
         "items/exercise-female-training-considerations-020.md",
         "items/exercise-funding-coi-check-004.md",
