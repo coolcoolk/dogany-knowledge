@@ -838,3 +838,57 @@ Added 2026-10-07. One item.
 - NOT SEARCHED: hangover and next-day food choice; alcohol absorption with
   vs without food (080 keeps a protein meal before on 031's grounds only);
   drink-refusal interventions.
+
+## nutrition -- protein powder choice and shopping (KR), v63 addendum
+
+Added 2026-10-07. Two items.
+
+- FILLED: nutrition/protein-powder-type-label-evidence-092 (@obs-inferential,
+  universal; C ledger, source row B, composition A, lactose B, seals D).
+  powder_evidence (8 rows): soy or pea = whey for strength and absolute lean
+  mass at adequate intake (Messina 2018, Lim 2021, Hevia-Larrain 2021,
+  Babault 2015); WPC 80 vs WPI composition (ADPI 2023); lactose per scoop vs
+  EFSA 12 g; KCA 2023 label test; amino spiking (Philips 2024); lead (Bandara
+  2020, Consumer Reports 2025); seal scope.
+- FILLED: nutrition/kr-protein-powder-shopping-rules-093 (@meal-craft, KR;
+  D synthesis). protein_powder_rules (14), product_fields (9), rebuy (6)
+  for the shopping module: won per 20 g protein, MFDS 80 percent tolerance,
+  label-plausibility ceilings, 건강기능식품 mark not a rank, claim classes,
+  seal scope, 해외직구 booster gate, plant lead cap, rebuy timing.
+- OPEN: 건강기능식품 공전 PROTEIN MONOGRAPH NOT READ AT SOURCE. The
+  daily-intake figure, the permitted protein claim wording and the
+  manufacturing spec (changed 2023) were not read; the law.go.kr record
+  carries the body as an attachment. Only the amino acid score 85 criterion
+  ships, as quoted by KCA 2023. Next pass: read the 공전 PDF section for
+  단백질 and add a claim-wording row to 093.
+- OPEN: KOREAN PRICE DATA IS 2023-02. The only official price-per-protein
+  table is KCA's (8 powders, 8 drinks). No current snapshot of Korean
+  listings (쿠팡 / 네이버) was taken, so 093 ships the arithmetic and a dated
+  band only. A dated live snapshot of 10-20 powders, with protein per
+  serving, would let 093 carry a current reference band.
+- OPEN: KOREAN LABEL ACCURACY AT SCALE. One failing powder in eight (KCA
+  2023) is the whole Korean measured record found. No MFDS 수거검사 of
+  protein powder protein content was located (the 2021 MFDS action on 660
+  protein bars and shakes was advertising, seen only in a news report).
+- OPEN: KOREAN LACTOSE MALABSORPTION PREVALENCE. Storhaug 2017 (global
+  meta-analysis) is RETRACTED (2025). The Korean breath-test studies read
+  (Park 2016, Oh 2022, Jung 2025/2026) recruited symptomatic adults and give
+  no population rate. 092 therefore states the tolerance dose, not a
+  Korean prevalence.
+- OPEN: LACTOSE IN FINISHED PRODUCTS. ADPI figures are for the ingredient.
+  Flavoured Korean WPC powders rarely state lactose; no measured lactose in
+  finished powders was found.
+- OPEN: PEA, RICE AND BLEND TRIALS. The plant evidence is mostly soy; the one
+  large pea trial (Babault 2015) is maker-funded and biceps-only. No trial of
+  a pea-rice blend vs whey on training outcomes was read. DIAAS values per
+  protein (Mathai 2017) were not read at full text and are not carried.
+- OPEN: SEAL PROGRAMMES. NSF's label-claim verification scope was not read
+  on a primary page (only third-party summaries say it verifies protein);
+  093 says only what Informed Sport and Informed Protein state. No study
+  compares sealed with unsealed powders on protein accuracy.
+- OPEN: SHELF LIFE AFTER OPENING. No primary study of opened whey powder
+  storage (moisture, Maillard browning, lysine loss) at Korean summer
+  humidity was read; 093's max_units uses the printed date only.
+- NOT SEARCHED: creatine and other additives in protein products; collagen
+  as a protein source (low amino acid score) beyond the KCA note; casein
+  vs whey for satiety on a cut; children and pregnancy use.
