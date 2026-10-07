@@ -9,6 +9,22 @@
 
 module: sleep-recovery
 releases:
+  - version: 1.4.0
+    date: 2026-10-07
+    warehouse: v107
+    note: caffeine dose and timing around training and sleep
+    added:
+      - sleep-recovery/caffeine-half-life-clearance-760
+      - sleep-recovery/kr-coffee-serving-caffeine-761
+      - sleep-recovery/training-session-caffeine-timing-rules-762
+  - version: 1.4.0
+    date: 2026-10-07
+    warehouse: v102
+    note: caffeine timing for training vs sleep (half-life, Korean servings, session-time plan)
+    added:
+      - sleep-recovery/caffeine-half-life-clearance-760
+      - sleep-recovery/kr-coffee-serving-caffeine-761
+      - sleep-recovery/training-session-caffeine-timing-rules-762
   - version: 1.3.0
     date: 2026-10-07
     warehouse: v90

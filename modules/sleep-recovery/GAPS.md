@@ -369,3 +369,44 @@ not filled:
   weekend-wake-anchor need onset_wake_times; lying-awake-* need a stated
   awake_in_bed fact; usual_wake_training and usual_bedtime are stated
   profile facts. Until stored, those rules serve the answer path only.
+
+v102 (provisional) CAFFEINE TIMING FOR TRAINING VS SLEEP (2026-10-07; items 760-762 from block 760..764,
+numbers are this branch's claim). Landed: caffeine-half-life-clearance-760
+(B/B/C/D: Blanchard & Sawers 1983 peak about 30 min, Parsons & Neims 1978
+smokers 3.5 h vs 6.0 h, Patwardhan 1980 oral contraceptives 10.7 h vs 6.2 h,
+Grzegorzewski 2022 PK data analysis, Nehlig 2018, Aldridge 1981 pregnancy,
+EFSA 2015; clearance_modifiers that only ever lengthen a 070 cutoff),
+kr-coffee-serving-caffeine-761 (C/B/D, locale KR, reverify_by 2027-04-30:
+MFDS 2019 per-serving means, KFDA 2012, KCA 2012 chain Americano 91-196 mg,
+KCA about 2016 energy drinks, KCA 2026 tea lattes; kr_servings mapped to 070
+rows) and training-session-caffeine-timing-rules-762 (D, engine-readable
+session_caffeine_plan: hours from intake to bed -> largest 070 row, 200 mg
+cap, under 9 h none). OPEN after it, searched and not filled:
+- SOURCES READ AS SEARCH-INDEX RECORDS ONLY. PubMed, PMC, NCBI Bookshelf,
+  Europe PMC, Crossref, korea.kr, mfds.go.kr, kca.go.kr and the news hosts
+  were refused by the egress proxy. Patwardhan 1980 (journal volume, pages,
+  PMID), the BF00544361 record's authors / year, and Aldridge 1981 (volume,
+  PMID, the 18 h figure, which came only through secondary reviews) are NOT
+  verified. Grzegorzewski 2022's stratified half-life values were not read.
+  -> A re-audit with PubMed access should open those four and the IOM 2001
+  chapter 2 (NBK223802) and check every number in 760.
+- CURRENT KOREAN CUP SIZES. No measured caffeine for today's low-price
+  chains' large cups (메가 / 컴포즈 / 빽다방 24 oz and up), extra shots, or
+  Starbucks Korea sizes was located; the latest chain Americano survey read
+  is KCA 2012 and the MFDS mean is 2019. Brand nutrition pages were not
+  reachable. 761 therefore maps these rows upward (D). -> Fetch the brands'
+  published 카페인 values and any KCA / MFDS survey after 2019.
+- KOREAN PRE-WORKOUT PRODUCTS. No survey of caffeine per scoop in products
+  sold in Korea was located; 761 / 762 rely on the label rule.
+- THE SMALL ROW AS AN ERGOGENIC DOSE. No trial located tests about 100 mg
+  (about 1.4 mg/kg) on strength or power in trained lifters; 762 speaks it as
+  an uncertain lift. A 2026 PubMed record on "novel low-dose caffeine
+  products" appeared in search and was not read.
+- 2012 KFDA vs KCA AMERICANO FIGURES DISAGREE (KFDA reported about 285 mg for
+  the same brand KCA measured at 168 mg), likely serving-base differences;
+  the release tables were not read. 761 uses bands, not either figure.
+- STILL OPEN FROM v53: the two low-dose cutoffs (070's 4 h vs 069 / 073's
+  8.8 h) are not merged; 762 speaks 083's 9 h like 083 does.
+- DATA DEPENDENCY, not evidence. session_start, usual_bedtime and the
+  planned serving are stated facts only; 762 serves the answer path until a
+  plan / check-in field stores them.
