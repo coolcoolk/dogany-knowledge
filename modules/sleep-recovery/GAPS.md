@@ -240,3 +240,37 @@ OPEN after it, each searched and not filled:
 Rerun-needed: none. All v14 sources were verified against PubMed primary records
 (or, for the two AASM guidelines and the consensus statement, against the
 publisher full text) rather than against secondary write-ups.
+
+v53 (provisional) CAFFEINE / EARLY-TRAINING SPRINT (2026-10-07; items 082-083, numbers are this branch's
+claim). Landed: caffeine-tolerance-short-night-082 (B/C/D: Carvalho 2022
+habitual-intake meta, Lara 2019 tolerance, Weibel 2021 daily habit vs sleep,
+Cook 2011 one short night, Doty 2017 five restricted nights, James & Rogers
+2005 and Roehrs & Roth 2008 withdrawal relief, Kocak 2025 athletes' evening
+caffeine) and caffeine-morning-brief-rules-083 (D, engine-readable
+caffeine_rules under 072's guards). Dose, onset and the cutoff table stay
+with 069 / 070. OPEN after it, searched and not filled:
+- TWO LOW-DOSE CUTOFFS IN THE WAREHOUSE. 070 carries 4 h (2025 trial) with
+  9 h cautious; 069 / 073 carry 8.8 h. 083's cutoff-speak-one-number makes
+  the brief speak 9 h; the rows themselves were not edited. -> A merge audit
+  of 072 / 073 / 083 caffeine lines (as 072's own note already asks).
+- TOLERANCE IN STRENGTH WORK. Lara 2019 is 11 low consumers on cycling
+  power; no within-person tolerance trial on lifting (1RM, reps, bar
+  velocity) was located. Carvalho 2022's moderator test is between-study and
+  rests on self-reported habitual intake.
+- CAFFEINE AFTER A SHORT NIGHT, PHYSICAL OUTPUT. Cook 2011 (n=10, a passing
+  skill) is the only athletic trial found; no trial of strength or power
+  after a short night with vs without caffeine. Doty 2017's "about three
+  nights" is vigilance, transferred as a direction only.
+- WITHDRAWAL AT DAWN. No trial tested a habitual user's session performance
+  after skipping the morning dose; 083's skipped-usual-coffee rests on the
+  alertness / mood reviews (C).
+- WOMEN, HORMONAL CONTRACEPTION, SLOW METABOLISERS. Weibel 2021 is all male;
+  Kocak 2025's 8-10 h advice for oral-contraceptive users is the review
+  authors' suggestion, not a tested cutoff. Genotype (CYP1A2) moderation was
+  not searched in this pass. 083 gates numbers instead.
+- REVIEWS READ AT ABSTRACT OR SUMMARY LEVEL. James & Rogers 2005, Roehrs &
+  Roth 2008 and Carvalho 2022 were read at abstract / publisher record;
+  Lara 2019, Weibel 2021, Cook 2011 and Kocak 2025 at PMC full text.
+- DATA DEPENDENCY, not evidence. caffeine_user, usual_caffeine and the day's
+  last caffeine exist only in chat; until a check-in field or parsed chat
+  fact exists, 083 serves the answer path, not the automatic brief.

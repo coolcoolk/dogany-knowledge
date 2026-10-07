@@ -149,6 +149,10 @@ PARTIALLY closes the batch1 "caffeine missing" line above: the ergogenic
 direction and dose band are now carried, but only inside a dawn-session item.
 A general caffeine item (habituation, genotype, sex, endurance vs strength
 magnitudes) is still not authored.
+  (v53 provisional: the habituation part is now carried by
+  sleep-recovery/caffeine-tolerance-short-night-082 -- habitual intake does not
+  moderate the acute effect, Carvalho 2022; partial tolerance, Lara 2019.
+  Genotype, sex and endurance-vs-strength magnitudes remain open.)
 RESIDUAL SUB-GAPS (each searched, none filled):
   - NOTHING TESTS 05:00. Every time-of-day, warm-up, caffeine and breakfast
     trial used 06:00-10:00 "morning" arms (Taylor and Facer-Childs 08:00,

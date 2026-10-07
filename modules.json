@@ -7,8 +7,8 @@
       "path": "modules/exercise",
       "version": "1.2.0",
       "published": true,
-      "sha256": "f1289370de8122d942a5a7cd33f600c2916efb1f6ca3f87ae461caaf5ac37f76",
-      "updated_at": "2026-10-07T04:29:35Z",
+      "sha256": "d3dca99909c32bec7205f70fb135fe277929c11263cc0d8bbf099651823115e5",
+      "updated_at": "2026-10-07T05:11:03Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -163,10 +163,10 @@
     {
       "id": "sleep-recovery",
       "path": "modules/sleep-recovery",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "published": true,
-      "sha256": "00ebe998df0c964dbfb645fd87c0c19403fe0e59ffab8a889a7fbebda759adfa",
-      "updated_at": "2026-10-07T00:46:55Z",
+      "sha256": "b30a37aea0a78b2bb5ad8d271419ff9ca976c75fb97a2f6ff59efd81955ce571",
+      "updated_at": "2026-10-07T05:15:27Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -174,6 +174,8 @@
         "items/sleep-recovery-adult-injury-risk-not-established-006.md",
         "items/sleep-recovery-brief-sleep-training-rules-072.md",
         "items/sleep-recovery-caffeine-bedtime-cutoff-070.md",
+        "items/sleep-recovery-caffeine-morning-brief-rules-083.md",
+        "items/sleep-recovery-caffeine-tolerance-short-night-082.md",
         "items/sleep-recovery-cbti-strong-sleep-hygiene-weak-007.md",
         "items/sleep-recovery-early-morning-session-071.md",
         "items/sleep-recovery-evening-light-mechanism-vs-intervention-012.md",
