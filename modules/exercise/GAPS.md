@@ -1402,3 +1402,39 @@ Activation / priming sprint (2026-10-07) -- filled and open:
 - OPEN: primer-to-work timing. Comyns 2015 saw a jump drop 0.5-6 min after a
   glute series; no study times a primer before a heavy lift. 731's
   primer-before-ramp placement is direction only.
+
+Drill cues and rep units (v101, 2026-10-07) -- filled and open:
+- FILLED: 740 drill-cue / rep-unit evidence (B external-focus cue direction,
+  Chua 2021 meta-analysis, indirect; C leg swing via Iwata 2019 dynamic
+  hamstring stretching, thoracic rotation via Johnson 2012 lumbar-locked
+  position, plate pullover via Marchetti 2011 EMG; D everything else) and
+  741 drill_cues (D: ordered steps, one external cue, one common fault + fix,
+  rep_unit and side_mode for roll-down, bear crawl, arm circles, world's
+  greatest stretch, leg swing, halo, thoracic rotation, bird dog, cat-cow,
+  plate pullover, band external rotation; six drill_rules incl.
+  unit-always-shown and per-side-means-each-side). Links 022, 065, 074, 081,
+  037; no existing item changed.
+- RERUN-NEEDED: every 740 source was read only as a web-search index
+  rendering (egress proxy refused pubmed, pmc, acefitness.org, nsca.com and
+  backfitpro.com on 2026-10-07). WANTED at primary: Chua 2021 full text
+  (task types, whether any warm-up / mobility drill was included), CERT
+  BJSM appendix (exact item 8 / 13 wording), Iwata 2019 (author list, exact
+  protocol), Johnson 2012 (journal, volume, n), Marchetti 2011 (EMG
+  normalisation, load), McGill's cat-camel count in a peer-reviewed source
+  (the 5-8 cycles is from a Backfitpro essay), the UMH bear-walk thesis.
+- OPEN: NO DRILL-SPECIFIC CUE TRIAL. External-focus evidence is motor-skill
+  tasks; no study tests cue wording on any of the eleven drills.
+- OPEN: NO OBSERVED FAULT FREQUENCY. 741's "common fault" per drill is the
+  one most corrected in coaching text, not one counted in a sample.
+- OPEN: NO REP-COUNT DOSE STUDY for any drill. Iwata 2019 used one dose of
+  active knee extension, not leg swings. All 741 default_dose values except
+  band ER (074's 8-16) are product constants.
+- OPEN: NO SOURCE AT ALL for the world's greatest stretch or the halo beyond
+  coaching description (no EMG, no ROM, no injury data located).
+- OPEN: REP-UNIT CONVENTION is not standardised anywhere; 741's side_mode
+  enum is a product choice. The logger and brief must adopt the same enum
+  (product change, not applied here). Bear crawl distance_or_time vs
+  per-side step count needs a product decision on which the logger stores.
+- PRODUCT NOTE (not applied, no program code): 741 drill_id keys are
+  proposed snake_case; the product drill catalog's own keys were not read and
+  must be mapped by the composer.

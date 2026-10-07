@@ -5,10 +5,10 @@
     {
       "id": "exercise",
       "path": "modules/exercise",
-      "version": "1.7.0",
+      "version": "1.8.0",
       "published": true,
-      "sha256": "8758b2ab0639b8c2f07edaabaf1517f6264dffd84a2baf1b6aef68be62757307",
-      "updated_at": "2026-10-07T21:50:41Z",
+      "sha256": "e2f771f9ea48efbeae0f7ed8246907f771e4cd0e9cabbabad4a3f39ce8fd8694",
+      "updated_at": "2026-10-07T21:54:36Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -28,6 +28,8 @@
         "items/exercise-deload-autoregulation-in-a-cut-085.md",
         "items/exercise-deload-planned-vs-reactive-060.md",
         "items/exercise-doms-timeline-mechanism-023.md",
+        "items/exercise-drill-cue-rep-unit-evidence-740.md",
+        "items/exercise-drill-cues-rep-units-741.md",
         "items/exercise-dynamic-warmup-same-day-performance-022.md",
         "items/exercise-early-morning-caffeine-food-069.md",
         "items/exercise-early-morning-performance-warmup-068.md",

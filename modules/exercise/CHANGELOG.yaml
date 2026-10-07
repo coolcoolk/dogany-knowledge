@@ -9,6 +9,13 @@
 
 module: exercise
 releases:
+  - version: 1.8.0
+    date: 2026-10-07
+    warehouse: v102
+    note: drill cues, steps, common fault and rep unit for prep drills
+    added:
+      - exercise/drill-cue-rep-unit-evidence-740
+      - exercise/drill-cues-rep-units-741
   - version: 1.7.0
     date: 2026-10-07
     warehouse: v101
