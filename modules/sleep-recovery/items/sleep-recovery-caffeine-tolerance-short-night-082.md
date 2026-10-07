@@ -8,6 +8,7 @@
 # table, 071 / 072 / 073 own the morning rules. Every source below was read
 # at PubMed, PMC or the publisher on 2026-10-07; no number is reconstructed
 # from memory. Rubric: sleep-recovery @clinical (VC-A).
+# Source re-audit 2026-10-07: one source line linking 084 (nap length and timing); no claim, number or grade change.
 id: sleep-recovery/caffeine-tolerance-short-night-082
 domain: sleep-recovery
 grade: B (habitual intake does not remove the acute ergogenic effect; 3-6 mg/kg works, above 6 mg/kg adds nothing); C (daily dosing shrinks but does not erase the effect over about three weeks); C (daily daytime caffeine ending 8 h or more before bed left sleep structure unchanged in habitual users); C (caffeine protected skill after one 3-5 h night); B (twice-daily caffeine stopped protecting alertness after about three nights of 5 h and slowed recovery); C (alertness gains in habitual users are largely withdrawal relief); D (the short-night afternoon top-up as the loop to break)
@@ -28,6 +29,7 @@ sources:
   - "exercise/early-morning-caffeine-food-069"  # owns the dawn dose (3-6 mg/kg, 200 mg single-dose ceiling)
   - "sleep-recovery/sleep-loss-performance-decrement-004"  # what a short night costs before caffeine enters
   - "sleep-recovery/nap-force-null-shuttle-signal-009"  # the alternative to an afternoon top-up
+  - "sleep-recovery/nap-length-timing-short-night-084"  # nap length, inertia and nap vs caffeine after a short night
   - "sleep-recovery/brief-sleep-training-rules-072"  # repeated-short-nights pattern rule this item's Doty row supports
   - "framework:GRADE -- Carvalho 2022 pools 60 placebo-controlled trials for the habitual-intake moderator (B; habitual intake is self-reported and the moderator test is between-study). Lara 2019 is one n=11 crossover in low consumers (C). Weibel 2021 is a well-controlled n=20 crossover with polysomnography, downgraded for an all-male, high-intake sample and one recorded night per arm (C). Cook 2011 is n=10 on one skill task (C). Doty 2017 is a laboratory RCT with n=48 and an objective vigilance endpoint (B; cognitive, not exercise, outcome). James & Rogers 2005 and Roehrs & Roth 2008 are narrative reviews (C). Kocak 2025 is rated low to very low by its own authors (C at best, used as corroboration of 070 only)."
 applicability:

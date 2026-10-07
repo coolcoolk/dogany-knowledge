@@ -169,10 +169,10 @@
     {
       "id": "sleep-recovery",
       "path": "modules/sleep-recovery",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "published": true,
-      "sha256": "b30a37aea0a78b2bb5ad8d271419ff9ca976c75fb97a2f6ff59efd81955ce571",
-      "updated_at": "2026-10-07T05:15:27Z",
+      "sha256": "bf94404de43dd6d5c5faffacf08cfd2a7dadee9bd581f353a88840b8be8861e7",
+      "updated_at": "2026-10-07T11:54:49Z",
       "files": [
         "CHANGELOG.yaml",
         "GAPS.md",
@@ -190,7 +190,9 @@
         "items/sleep-recovery-hour-target-is-a-threshold-consensus-013.md",
         "items/sleep-recovery-late-night-next-morning-training-080.md",
         "items/sleep-recovery-melatonin-chronobiotic-not-hypnotic-008.md",
+        "items/sleep-recovery-nap-brief-rules-085.md",
         "items/sleep-recovery-nap-force-null-shuttle-signal-009.md",
+        "items/sleep-recovery-nap-length-timing-short-night-084.md",
         "items/sleep-recovery-regularity-appetite-brief-rules-016.md",
         "items/sleep-recovery-regularity-vs-duration-014.md",
         "items/sleep-recovery-short-night-rules-081.md",

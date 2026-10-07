@@ -274,3 +274,52 @@ with 069 / 070. OPEN after it, searched and not filled:
 - DATA DEPENDENCY, not evidence. caffeine_user, usual_caffeine and the day's
   last caffeine exist only in chat; until a check-in field or parsed chat
   fact exists, 083 serves the answer path, not the automatic brief.
+
+v66 (provisional) NAP TIMING SPRINT (2026-10-07; items 084-085, numbers are this branch's
+claim). Landed: nap-length-timing-short-night-084 (C/B/C/C/C/C/B/C/D:
+Brooks & Lack 2006 nap length after a 5 h night, Hilditch 2016 and 2017,
+Hilditch & McHill 2019 inertia, Romdhani 2021 20 vs 90 min and caffeine plus
+nap, the 2023 Chronobiol Int nap before a 17:00 lift, Petit 2014, Reyner &
+Horne 1997, Hayashi 2003, Mednick 2008, Werth 1996, Mograss 2022) and
+nap-brief-rules-085 (D, engine-readable nap_rules under 072's guards,
+refining 072 nap-repay). 082 / 083 gained one source line each. Partly
+CLOSED: NAP TIMING RELATIVE TO BEDTIME above now has a direction (an
+early-evening nap spends sleep pressure, Werth 1996; late naps go with
+poorer nights, Mograss 2022) but still no cutoff. OPEN after it, searched
+and not filled:
+- SOURCES READ AT ABSTRACT LEVEL ONLY, VIA SEARCH-INDEX RECORDS. In this run
+  PubMed, PMC, Europe PMC, Crossref and every publisher host were refused by
+  the network policy (403 at the proxy). Every primary in 084 was read only
+  as the search-index abstract / record text. Brooks & Lack 2006's DOI,
+  Mednick 2008's volume/pages, the 2023 Chronobiol Int author list and the
+  Romdhani IJSPP volume were not read and are not quoted. -> A re-audit pass
+  with PubMed access should open Brooks & Lack 2006, Hilditch 2016 and the
+  2023 Chronobiol Int trial at full text and check each number in 084.
+- NAP-END CUTOFF BEFORE BED. No trial varies nap end time against bedtime
+  and measures the night. 085's 16:00 and 6-hours-before-bed lines are
+  product constants. Mograss 2022's "late nap" definition was not read.
+  -> Fetch any PSG study of an afternoon vs late-afternoon nap with the
+  following night recorded.
+- NAP LENGTH BEFORE A STRENGTH SESSION. The length trials measure alertness
+  and cognition (Brooks & Lack) or repeated sprints (Romdhani); the only
+  located lifting trial (2023, n=15) compared 0 / 30 / 60 min and found no
+  strength effect at any length. No 10-20 min nap trial before lifting.
+- 90-MINUTE NAP. One trial (Romdhani 2021, 14 judokas) against it before a
+  sprint test; a search snippet cited other work finding 90 min better than
+  40 min for cognitive and physical performance, which was not traced to a
+  primary and is not used. Contested-in-waiting.
+- COFFEE NAP IN ATHLETES. Reyner & Horne 1997 (n=12) and Hayashi 2003 are
+  driving / sleepiness; Romdhani IJSPP 2021 is 9 judokas. No lifting test,
+  no women, no habitual-intake moderator.
+- WOMEN AND OLDER ADULTS. Brooks & Lack (half women) and Hilditch 2016 (18 of
+  31 women) are mixed; every athletic nap trial is male and young.
+- MERGE AUDIT. 072 nap-repay (30 to under 60 min, more than 1 h before) and
+  085 short-night-short-nap (10-20 min, 30 min before) now both exist; 085
+  refines 072 by session gap, 072 was not edited. 072's reasoning line "no
+  shorter nap is offered because the trials do not support one" is now out
+  of date (Brooks & Lack 2006) and should be revised in the audit.
+- DATA DEPENDENCY, not evidence. nap_possible, session_time and
+  usual_bedtime are plan or chat facts; naps are summed into sleep_min per
+  wake day (016), so a logged nap cannot be told apart from night sleep in
+  today's store. 085 serves the answer path until a nap flag or onset/wake
+  times are stored (the sleep-rules field guide (not public)).

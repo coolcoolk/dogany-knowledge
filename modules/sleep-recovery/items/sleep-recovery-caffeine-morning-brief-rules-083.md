@@ -22,6 +22,7 @@
 # a daily habit and a short night change. When a rule here and a 072 / 073 /
 # 081 line fire on the same morning, one caffeine line is spoken -- the
 # higher level wins (flag > hedge > note).
+# Source re-audit 2026-10-07: one source line linking 085 (nap rules); no rule, constant or grade change.
 id: sleep-recovery/caffeine-morning-brief-rules-083
 domain: sleep-recovery
 grade: D (synthesis rule over 082, 070, 069, 071 and 072; each rule's basis_grade is the strength of its own row, every boundary is product judgement)
@@ -38,6 +39,7 @@ sources:
   - "sleep-recovery/brief-sleep-training-rules-072"  # brief_guards, repeated-short-nights, nap-repay, caffeine-late
   - "sleep-recovery/short-night-rules-081"  # the stated-cause short night block; one line per brief across both
   - "sleep-recovery/nap-force-null-shuttle-signal-009"  # nap as the first alternative to an afternoon top-up
+  - "sleep-recovery/nap-brief-rules-085"  # nap-before-caffeine and coffee-nap: which nap, and the coffee nap against 070
   - "framework:GRADE -- directions are inherited from 082 (B for habitual intake not cancelling the effect and above-6-mg/kg adding nothing, and for caffeine losing its effect over a run of restricted nights; C for partial tolerance, withdrawal relief, daily-habit sleep and the one-short-night protection; D for the afternoon loop) and 070 (B/C for the cutoffs). The boundaries -- 360 min as a short night (072 / 073), 3 of the last 7 nights (072), 8 h before bed as a daily-habit line (the tested schedule, not a threshold), 6 mg/kg ceiling, 200 mg single-dose ceiling (069) -- are product constants or source edges."
 applicability:
   axes:
